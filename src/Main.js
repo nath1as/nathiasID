@@ -3,7 +3,6 @@ import {
   Route,
   NavLink,
   HashRouter,
-  Link,
   Redirect,
 } from "react-router-dom";
 import Home from "./Home";
@@ -15,20 +14,28 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div>
-          <ul className="header">
+        <nav>
+          <ul>
             <li><NavLink exact to="/">main()</NavLink></li>
             <li><NavLink to="/id">id()</NavLink></li>
             <li><NavLink to="/contact">contact()</NavLink></li>
-            <li><NavLink to="/blog">blog()</NavLink></li>
+            <li>
+              <a
+                href='https://abstraction.sh'
+                title='abstraction'
+                target='_blank'
+                rel='noopener noreferrer'>
+               blog()
+              </a>
+            </li>
           </ul>
-          <div className="content">
+          <div>
             <Route exact path="/" component={Home}/>
             <Route path="/id" component={Id}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/blog" component={Blog}/>
           </div>
-        </div>
+        </nav>
       </HashRouter>
     );
   }
