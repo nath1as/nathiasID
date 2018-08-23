@@ -11,9 +11,9 @@ import Contact from "./Contact";
 class Main extends Component {
   render() {
     return (
+    
       <HashRouter>
         <div>
-          <h1>Nathias</h1>
           <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/id">id</NavLink></li>
