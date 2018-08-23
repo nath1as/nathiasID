@@ -11,19 +11,21 @@ import Contact from "./Contact";
 class Main extends Component {
   render() {
     return (
-      <div>
-        <h1>Nathias</h1>
-        <ul className="header">
-          <li><a href="/">main()</a></li>
-          <li><a href="/id">id()</a></li>
-          <li><a href="/contact">contact()</a></li>
-        </ul>
-        <div className="content">
+      <HashRouter>
+        <div>
+          <h1>Simple SPA</h1>
+          <ul className="header">
+            <li><a href="/">Home</a></li>
+            <li><a href="/id">id</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+          <div className="content">
 
+          </div>
         </div>
-      </div>
+      </HashRouter>
     );
   }
 }
- 
+
 export default Main;
