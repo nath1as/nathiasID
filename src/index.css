@@ -1,66 +1,55 @@
 
 body {
   background-color: #1c1c1c;
-  color: #FFF8DC;
+  color: #333;
   /* margin-left: 20rem; */
 }
 
-section {
-  border: dashed 2px white;
-  display: block;
-  position: relative;
-  width: 100%;
-}
-
-section > pre {
-  /* border: dashed 2px white; */
-  font-size: 1rem;
-  width: 100%;
-
-  font-family: "Courier New", Courier, monospace;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
 
 nav > ul {
   /* border: dashed 2px white; */
+  /* width: 50%; */
+  /* margin: 0 auto; */
   display: flex;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+
   list-style-type: none;
   position: relative;
   list-style: none;
-  margin-left: 2rem;
+  margin-left: 4rem;
   top: -2.5rem;
-  left: 2rem;
+  left: 1rem;
   /* left: 4rem; */
 }
 
 nav > ul > li {
-  font-size: 1.3rem;
-  padding-left: 0.1rem;
-  padding-right: 0.1rem;
+  font-size: 1.5rem;
+  font-family: 'I pixel U';
+  margin-left: -0.2rem;
+  margin-right: -0.2rem;
 }
 
 nav > ul > li:before {
-  content:">  ";
+  content:"> ";
   visibility: hidden;
+}
+
+nav > ul > li > :not(.active):before {
+  content:"> ";
+  visibility: hidden;
+}
+.active:before {
+  content:"> ";
+}
+
+.active {
+  color: #0099FF;
 }
 
 article {
   border: dashed 2px white;
   padding: 2rem;
-}
-
-nav > ul > li > :not(.active):before {
-  content:">  ";
-  visibility: hidden;
-}
-.active:before {
-  content:">  ";
-}
-
-.active {
-  background-color: #0099FF;
 }
 
 #root {
@@ -73,6 +62,10 @@ nav > ul > li > :not(.active):before {
 }
 
 #logo {
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
   line-height: 1.5em;
   position: relative;
   top: 7rem;
@@ -82,13 +75,12 @@ nav > ul > li > :not(.active):before {
   align-items: center;
   justify-content: center;
 
-
 /* colors */
-background: #6a2bd8;
-background: -moz-linear-gradient(-45deg, #6a2bd8 0%, #2bc6e5 20%, #b826f2 73%, #f200e2 100%);
-background: -webkit-linear-gradient(-45deg, #6a2bd8 0%,#2bc6e5 20%,#b826f2 73%,#f200e2 100%);
-background: linear-gradient(135deg, #6a2bd8 0%,#2bc6e5 20%,#b826f2 73%,#f200e2 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2bd8', endColorstr='#f200e2',GradientType=1 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+/* background: #6a2bd8; */
+/* background: -moz-linear-gradient(-45deg, #6a2bd8 0%, #2bc6e5 20%, #b826f2 73%, #f200e2 100%); */
+/* background: -webkit-linear-gradient(-45deg, #6a2bd8 0%,#2bc6e5 20%,#b826f2 73%,#f200e2 100%); */
+/* background: linear-gradient(135deg, #6a2bd8 0%,#2bc6e5 20%,#b826f2 73%,#f200e2 100%); */
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2bd8', endColorstr='#f200e2',GradientType=1 ); */
+/*   -webkit-background-clip: text; */
+/*   -webkit-text-fill-color: transparent; */
 }
