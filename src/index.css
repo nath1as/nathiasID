@@ -2,18 +2,16 @@
 body {
   background-color: #1c1c1c;
   color: #333;
-  /* margin-left: 20rem; */
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-a {
+nav > ul > li > a {
   text-decoration: none;
   color: #333;
 }
 
 nav > ul {
-  /* border: dashed 2px white; */
-  /* width: 50%; */
-  /* margin: 0 auto; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,10 +19,7 @@ nav > ul {
   list-style-type: none;
   position: relative;
   list-style: none;
-  margin-left: 0.5rem;
-  top: -2.5rem;
-  /* left: 1rem; */
-  /* left: 4rem; */
+  top: -2.7rem;
 }
 
 nav > ul > li {
@@ -57,26 +52,18 @@ article {
 }
 
 #root {
-  width: 100%;
-  margin: 0 auto;
   display: flex;
-  align-items: center;
   justify-content: center;
 
 }
 
 #logo {
   font-family: "Courier New", Courier, monospace;
-  overflow-x: hidden;
-  overflow-y: hidden;
 
   line-height: 1.5em;
   position: relative;
   top: 7rem;
-  width: 100%;
-  margin: 0 auto;
   display: flex;
-  align-items: center;
   justify-content: center;
 
 /* colors */

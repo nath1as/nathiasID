@@ -13,7 +13,6 @@ class Contact extends Component {
            n@th1.as
           </a></li>
           <li>tox: <a
-            href="mailto:n@th1.as"
             title='tox'
             target='_blank'
             rel='noopener noreferrer'>
