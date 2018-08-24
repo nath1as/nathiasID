@@ -19,12 +19,13 @@ class Contact extends Component {
            123219391391
           </a></li>
           <li>irc: nathias @ freenode, quakenet, snoo, etc. </li>
+          <li>keybase: nathias</li>
         </ul>
         <ul>
           <li><img />github</li>
+          <li><img />academia.edu</li>
           <li><img />deviantart</li>
 
-          <li><img />keybase</li>
           <li><img />reddit</li>
           <li><img />twitter</li>
           <li><img />instagram</li>

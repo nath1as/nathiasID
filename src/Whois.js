@@ -5,10 +5,13 @@ class Whois extends Component {
     return (
       <div>
         <p>
-          class Nathias(Philosopher, Coder, Human):<br/>
+          class Nathias(Philosopher, Coder):<br/>
               &nbsp;&nbsp;&nbsp;&nbsp; name = Matija<br/>
               &nbsp;&nbsp;&nbsp;&nbsp; surname = Potocnik Pribosic<br/>
+
+
               &nbsp;&nbsp;&nbsp;&nbsp; education =: doctor philosophia<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp; experience =: list<br/>
         </p>
       </div>
     );
