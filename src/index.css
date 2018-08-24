@@ -1,4 +1,3 @@
-
 body {
   background-color: #1c1c1c;
   color: #333;
@@ -19,14 +18,15 @@ nav > ul {
   list-style-type: none;
   position: relative;
   list-style: none;
-  top: -2.7rem;
+  top: -3.5rem;
 }
 
 nav > ul > li {
-  font-size: 1.5rem;
-  font-family: 'I pixel U';
-  margin-left: -0.2rem;
-  margin-right: -0.2rem;
+  font-size: 2.0rem;
+  /* font-family: 'Press Start 2P'; */
+font-family: 'VT323', monospace;
+  margin-left: -0.3rem;
+  margin-right: -0.3rem;
 }
 
 nav > ul > li:before {
@@ -51,10 +51,15 @@ article {
   padding: 2rem;
 }
 
+/* submenu */
+.submenu > ul > li {
+  font-size: 1.5rem;
+}
+
 #root {
   display: flex;
   justify-content: center;
-
+  /* font-family: "Hack"; */
 }
 
 #logo {

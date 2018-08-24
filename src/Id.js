@@ -12,7 +12,7 @@ class Id extends Component {
   render() {
     return (
       <HashRouter>
-        <nav>
+        <nav className="submenu">
           <ul>
             <li><NavLink exact to="/id/whois">whois()</NavLink></li>
             <li><NavLink exact to="/id/online">online()</NavLink></li>
