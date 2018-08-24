@@ -1,19 +1,25 @@
 import React, { Component } from "react";
+import {
+  Route,
+  NavLink,
+  HashRouter,
+  Redirect,
+} from "react-router-dom";
+import Whois from "./Whois";
 
 class Id extends Component {
   render() {
     return (
-      <div>
-        <p>Mauris sem velit, vehicula eget sodales vitae,
-        rhoncus eget sapien:</p>
-        <ol>
-          <li>Nulla pulvinar diam</li>
-          <li>Facilisis bibendum</li>
-          <li>Vestibulum vulputate</li>
-          <li>Eget erat</li>
-          <li>Id porttitor</li>
-        </ol>
-      </div>
+      <HashRouter>
+        <nav>
+          <ul>
+            <li><NavLink exact to="/id/whois">whois()</NavLink></li>
+          </ul>
+          <div>
+            <Route exact path="/id/whois" component={Whois}/>
+          </div>
+        </nav>
+      </HashRouter>
     );
   }
 }
