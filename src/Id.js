@@ -4,7 +4,6 @@ class Id extends Component {
   render() {
     return (
       <div>
-        <h2>ID</h2>
         <p>Mauris sem velit, vehicula eget sodales vitae,
         rhoncus eget sapien:</p>
         <ol>

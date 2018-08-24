@@ -4,7 +4,6 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <h2>COMMS</h2>
         <ul>
           <li>email: <a
             href="mailto:n@th1.as"
