@@ -19,15 +19,6 @@ class Main extends Component {
             <li><NavLink exact to="/">main()</NavLink></li>
             <li><NavLink to="/id">id()</NavLink></li>
             <li><NavLink to="/contact">contact()</NavLink></li>
-            <li>
-              <a
-                href='https://abstraction.sh'
-                title='abstraction'
-                target='_blank'
-                rel='noopener noreferrer'>
-               blog()
-              </a>
-            </li>
           </ul>
           <div>
             <Route exact path="/" component={Home}/>

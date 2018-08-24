@@ -14,6 +14,16 @@ class Id extends Component {
         <nav>
           <ul>
             <li><NavLink exact to="/id/whois">whois()</NavLink></li>
+            <li><NavLink exact to="/id/whois">online()</NavLink></li>
+            <li>
+              <a
+                href='https://abstraction.sh'
+                title='abstraction'
+                target='_blank'
+                rel='noopener noreferrer'>
+               blog()
+              </a>
+            </li>
           </ul>
           <div>
             <Route exact path="/id/whois" component={Whois}/>
