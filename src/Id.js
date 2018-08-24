@@ -6,6 +6,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import Whois from "./Whois";
+import Work from "./Work";
 import Online from "./Online";
 
 class Id extends Component {
@@ -14,21 +15,23 @@ class Id extends Component {
       <HashRouter>
         <nav className="submenu">
           <ul>
-            <li><NavLink exact to="/id/whois">whois()</NavLink></li>
-            <li><NavLink exact to="/id/online">online()</NavLink></li>
+            <li><NavLink exact to="/id/whois">/whois</NavLink></li>
+            <li><NavLink exact to="/id/online">/online</NavLink></li>
+            <li><NavLink exact to="/id/online">/work</NavLink></li>
             <li>
               <a
                 href='https://abstraction.sh'
                 title='abstraction'
                 target='_blank'
                 rel='noopener noreferrer'>
-               blog()
+                /blog
               </a>
             </li>
           </ul>
           <div>
             <Route exact path="/id/whois" component={Whois}/>
             <Route exact path="/id/online" component={Online}/>
+            <Route exact path="/id/online" component={Work}/>
           </div>
         </nav>
       </HashRouter>
