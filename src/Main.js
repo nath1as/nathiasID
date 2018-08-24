@@ -14,7 +14,7 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <nav>
+        <nav className="nav">
           <ul>
             <li><NavLink exact to="/">main()</NavLink></li>
             <li><NavLink to="/id">id()</NavLink></li>
