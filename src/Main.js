@@ -8,7 +8,7 @@ import {
 import Void from "./Void";
 import Id from "./Id";
 import Contact from "./Contact";
-import Blog from "./Blog";
+import Resume from "./Resume";
 
 class Main extends Component {
   render() {
@@ -24,7 +24,7 @@ class Main extends Component {
             <Route exact path="/" component={Void}/>
             <Route path="/id" component={Id}/>
             <Route path="/contact" component={Contact}/>
-            <Route path="/blog" component={Blog}/>
+            <Route path="/resume" component={Resume}/>
           </div>
         </nav>
       </HashRouter>

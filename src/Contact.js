@@ -20,6 +20,18 @@ class Contact extends Component {
           </a></li>
           <li>irc: nathias @ freenode, quakenet, snoo, etc. </li>
         </ul>
+        <ul>
+          <li><img />github</li>
+          <li><img />deviantart</li>
+
+          <li><img />keybase</li>
+          <li><img />reddit</li>
+          <li><img />twitter</li>
+          <li><img />instagram</li>
+          <li><img />linkedin</li>
+          <li><img />facebook</li>
+        </ul>
+
       </div>
     );
   }

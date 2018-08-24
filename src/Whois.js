@@ -14,5 +14,5 @@ class Whois extends Component {
     );
   }
 }
- 
+
 export default Whois;
