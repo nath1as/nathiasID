@@ -42,14 +42,13 @@ nav > ul > li > :not(.active):before {
 }
 .active:before {
   content:">";
+  font-weight: bold;
   animation: blinker 2s linear infinite;
   padding: 0.4rem;
+  position: relative;
+  top: 0.1rem;
+  animation: glitch 4s steps(100) infinite;
 }
-
-.active {
-  color: #575757;
-}
-
 
 @keyframes blinker {  
   50% { opacity: 0; }
@@ -84,6 +83,8 @@ nav > ul > li:hover {
  animation: glitch 2s steps(100) infinite;
 }
 
+nav > ul > li:active {
+}
 
 
 /* glitch */
