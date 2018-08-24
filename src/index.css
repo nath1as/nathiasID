@@ -5,6 +5,10 @@ body {
   /* margin-left: 20rem; */
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+}
 
 nav > ul {
   /* border: dashed 2px white; */
@@ -17,9 +21,9 @@ nav > ul {
   list-style-type: none;
   position: relative;
   list-style: none;
-  margin-left: 4rem;
+  margin-left: 0.5rem;
   top: -2.5rem;
-  left: 1rem;
+  /* left: 1rem; */
   /* left: 4rem; */
 }
 
