@@ -40,7 +40,8 @@ nav > ul > li > :not(.active):before {
   visibility: hidden;
   padding: 0.4rem;
 }
-.active:before {
+
+.nav > ul > li > .active:before {
   content:">";
   font-weight: bold;
   animation: blinker 2s linear infinite;
@@ -59,6 +60,11 @@ nav > ul > li > :not(.active):before {
   margin: 0 1.1rem;
   position: relative;
   top: -1.2rem;
+}
+
+.submenu ul > li > .active {
+  animation: glitch 4s steps(100) infinite;
+
 }
 
 #root {
@@ -83,9 +89,19 @@ nav > ul > li:hover {
  animation: glitch 2s steps(100) infinite;
 }
 
-nav > ul > li:active {
+article {
+  border: 2px solid #1c1c1c;
+  margin: 1rem;
 }
 
+article > img {
+  float: left;
+  padding: 1rem;
+}
+
+article > p {
+  padding: 1rem;
+}
 
 /* glitch */
 .glitch:hover {
