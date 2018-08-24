@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import github from './files/img/githubPIXEL.png';
+import facebook from './files/img/facebookPIXELtest.png';
 
 class Contact extends Component {
   render() {
@@ -18,11 +20,11 @@ class Contact extends Component {
             rel='noopener noreferrer'>
            123219391391
           </a></li>
-          <li>irc: nathias @ freenode, quakenet, snoo, etc. </li>
+          <li>irc: nathias</li>
           <li>keybase: nathias</li>
         </ul>
         <ul>
-          <li><img />github</li>
+          <li><img src={github} alt="github" />github</li>
           <li><img />academia.edu</li>
           <li><img />deviantart</li>
 
@@ -30,7 +32,7 @@ class Contact extends Component {
           <li><img />twitter</li>
           <li><img />instagram</li>
           <li><img />linkedin</li>
-          <li><img />facebook</li>
+          <li><img src={facebook} alt="facebook" />facebook</li>
         </ul>
 
       </div>

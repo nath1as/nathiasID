@@ -1,13 +1,13 @@
 body {
-  background-color: #1c1c1c;
-  color: #333;
+  background-color: #0F0F0F;
+  color: #1F1F1F;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
 nav > ul > li > a {
   text-decoration: none;
-  color: #333;
+  color: #262626;
 }
 
 nav > ul {
@@ -18,13 +18,13 @@ nav > ul {
   list-style-type: none;
   position: relative;
   list-style: none;
-  top: -3.5rem;
+  top: -4.0rem;
+  left: 0.5rem;
 }
 
 nav > ul > li {
   font-size: 2.0rem;
-  /* font-family: 'Press Start 2P'; */
-font-family: 'VT323', monospace;
+  font-family: 'VT323', monospace;
   margin-left: -0.3rem;
   margin-right: -0.3rem;
 }
@@ -43,7 +43,7 @@ nav > ul > li > :not(.active):before {
 }
 
 .active {
-  color: #0099FF;
+  color: #575757;
 }
 
 article {
@@ -55,12 +55,15 @@ article {
 .submenu > ul > li {
   font-size: 1.5rem;
   margin: 0 1.1rem;
+  position: relative;
+  top: -0.5rem;
 }
 
 #root {
   display: flex;
   justify-content: center;
-  /* font-family: "Hack"; */
+  font-family: "Hack";
+  font-size: 1.4rem;
 }
 
 #logo {
