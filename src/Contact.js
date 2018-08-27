@@ -7,6 +7,7 @@ class Contact extends Component {
     return (
       <div>
         <article>
+          <h3>COMMS:</h3>
           <ul>
             <li>email: <a
               href="mailto:n@th1.as"
@@ -24,6 +25,7 @@ class Contact extends Component {
             <li>irc: nathias</li>
             <li>keybase: nathias</li>
           </ul>
+          <h3>SOCIAL:</h3>
           <ul>
             <li><img />github</li>
             <li><img />academia.edu</li>

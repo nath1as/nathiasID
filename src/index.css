@@ -1,14 +1,14 @@
 body {
   background-color: #0F0F0F;
-  color: #1F1F1F;
+  color: #1c1c1c;
   overflow-x: hidden;
   overflow-y: hidden;
   outline:none
 }
 
-nav > ul > li > a {
+ ul > li > a {
   text-decoration: none;
-  color: #262626;
+  color: #313131;
   outline:none;
 }
 
@@ -72,7 +72,8 @@ nav > ul > li:hover {
 #root {
   display: flex;
   justify-content: center;
-  font-family: "Hack";
+  font-family: Consolas, monospace;
+  color:#313131;
   font-size: 1.4rem;
 }
 
@@ -96,7 +97,7 @@ article {
   margin: 0 auto;
   margin: 1rem;
   margin-top: 1rem;
-  
+  padding: 1rem;
 }
 
 article > img {
@@ -104,8 +105,26 @@ article > img {
   padding: 1rem;
 }
 
-article > p {
-  padding: 1rem;
+/* article > p { */
+/*   display: flex; */
+/*   justify-content: center; */
+/* } */
+
+/* article > li, p { */
+/*   width: 50%; */
+/*   margin: 0 auto; */
+/*   float: right; */
+/* } */
+
+article > ul {
+  list-style-type: none;
+}
+article > h3 {
+  margin-right: 2rem;
+  float: left;
+  position: relative;
+  top: 3rem;
+  min-height: 5.5rem;
 }
 
 /* animation */

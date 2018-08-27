@@ -6,6 +6,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import Void from "./Void";
+import Logo from "./Logo";
 import Id from "./Id";
 import Contact from "./Contact";
 import Resume from "./Resume";

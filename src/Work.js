@@ -5,14 +5,10 @@ class Work extends Component {
     return (
       <div>
         <article>
-          <h3> Philosophy:</h3>
-          <p>
-            cobiss
-          </p>
-          <h3> Code:</h3>
-          <p>
-            github
-          </p>
+          <h2>PHILOSOPHY:</h2>
+          <p> cobiss </p>
+          <h2>CODE:</h2>
+          <p> github </p>
         </article>
       </div>
     );
