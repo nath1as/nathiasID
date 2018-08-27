@@ -69,19 +69,19 @@ class Contact extends Component {
               rel='noopener noreferrer'>
             ├[▓▒░twitter</a></li>
             <li><a
-              href="https://independent.academia.edu/nathias"
-              title='academia.edu'
+              href="https://www.instagram.com/nihilnegativum"
+              title='instagram'
               target='_blank'
               rel='noopener noreferrer'>
             ├[▓▒░instagram</a></li>
             <li><a
-              href="https://independent.academia.edu/nathias"
+              href="https://www.linkedin.com/in/nathias"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>
             ├[▓▒░linkedin</a></li>
             <li><a
-              href="https://independent.academia.edu/nathias"
+              href="https://www.facebook.com/nath1as"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>

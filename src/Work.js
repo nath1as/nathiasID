@@ -6,7 +6,8 @@ class Work extends Component {
       <div>
         <article>
           <h2>PHILOSOPHY:</h2>
-          <p> cobiss </p>
+          <p> #TODO script to parse data into JSON from:</p>
+          <p> https://plus.cobiss.si/</p>
           <h2>CODE:</h2>
           <p> github </p>
         </article>
