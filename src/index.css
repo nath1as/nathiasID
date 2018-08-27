@@ -46,11 +46,10 @@ nav > ul > li > :not(.active):before {
 .nav > ul > li > .active:before {
   content:">";
   font-weight: bold;
-  animation: blinker 2s linear infinite;
   padding: 0.2rem;
   position: relative;
   top: 0.1rem;
-  animation: glitch 4s steps(100) infinite;
+  animation: glitch 4s steps(100) 1, blinker 1.5s linear infinite;
 }
 
 nav > ul > li:hover {
@@ -66,7 +65,7 @@ nav > ul > li:hover {
 }
 
 .submenu ul > li > .active {
-  animation: glitch 4s steps(100) infinite;
+  animation: glitch 4s steps(100) 1, blinker 1.5s linear infinite;
 
 }
 
