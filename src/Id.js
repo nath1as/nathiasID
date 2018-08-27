@@ -14,15 +14,15 @@ class Id extends Component {
       <HashRouter>
         <nav className="submenu">
           <ul>
-            <li><NavLink exact to="/id/whois">/whois</NavLink></li>
-            <li><NavLink exact to="/id/work">/work</NavLink></li>
+            <li><NavLink exact to="/id/whois">whois</NavLink></li>
+            <li><NavLink exact to="/id/work">work</NavLink></li>
             <li>
               <a
-                href='https://abstraction.sh'
+                href='http://www.abstraction.sh'
                 title='abstraction'
-                target='_blank'
+                // target='_blank'
                 rel='noopener noreferrer'>
-                /blog
+                blog
               </a>
             </li>
           </ul>

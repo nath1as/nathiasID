@@ -3,8 +3,15 @@ body {
   color: #1c1c1c;
   overflow-x: hidden;
   overflow-y: hidden;
-  outline:none
+  outline:none;
 }
+
+h1, h2, h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 900;
+  font-size: 0.6rem;
+}
+
 
  ul > li > a {
   text-decoration: none;
@@ -25,19 +32,19 @@ nav > ul {
 }
 
 nav > ul > li {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-family: 'VT323', monospace;
   margin-left: -0.6rem;
   margin-right: -0.6rem;
 }
 
-nav > ul > li:before {
+.nav > ul > li:before {
   content:">";
   visibility: hidden;
   padding: 0.4rem;
 }
 
-nav > ul > li > :not(.active):before {
+.nav > ul > li > :not(.active):before {
   content:">";
   visibility: hidden;
   padding: 0.4rem;
@@ -46,35 +53,56 @@ nav > ul > li > :not(.active):before {
 .nav > ul > li > .active:before {
   content:">";
   font-weight: bold;
-  padding: 0.2rem;
+  padding: 0.4rem;
   position: relative;
-  top: 0.1rem;
-  animation: glitch 4s steps(100) 1, blinker 1.5s linear infinite;
+  top: 0.15rem;
+  animation: glitch 4s steps(100) 1, blinker 1.5s linear 6;
 }
 
 nav > ul > li:hover {
- animation: glitch 2s steps(100) infinite;
+ animation: glitch 3s steps(100) infinite;
 }
 
 /* submenu */
 .submenu > ul > li {
   font-size: 1.5rem;
-  margin: 0 1.1rem;
+  margin: 0 0.1rem;
   position: relative;
   top: -1.2rem;
 }
 
-.submenu ul > li > .active {
-  animation: glitch 4s steps(100) 1, blinker 1.5s linear infinite;
+.submenu > ul > li:before {
+  content:"/";
+  visibility: hidden;
+  padding: 0.2rem;
+}
 
+.submenu > ul > li > :not(.active):before {
+  content:"/";
+  /* visibility: hidden; */
+  padding: 0.2rem;
+}
+
+.submenu > ul > li > .active:before {
+  content:"/";
+  font-weight: bold;
+  padding: 0.3rem;
+  /* position: relative; */
+  /* top: -0.25rem; */
+  animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
+}
+
+.submenu ul > li > .active {
+  animation: glitch 4s steps(100) 1;
 }
 
 #root {
   display: flex;
   justify-content: center;
-  font-family: Consolas, monospace;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
   color:#313131;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 #logo {
@@ -93,7 +121,6 @@ nav > ul > li:hover {
 
 
 article {
-  border: 2px solid #1c1c1c;
   margin: 0 auto;
   margin: 1rem;
   margin-top: 1rem;
@@ -104,17 +131,6 @@ article > img {
   float: left;
   padding: 1rem;
 }
-
-/* article > p { */
-/*   display: flex; */
-/*   justify-content: center; */
-/* } */
-
-/* article > li, p { */
-/*   width: 50%; */
-/*   margin: 0 auto; */
-/*   float: right; */
-/* } */
 
 article > ul {
   list-style-type: none;

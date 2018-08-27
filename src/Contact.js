@@ -7,23 +7,23 @@ class Contact extends Component {
     return (
       <div>
         <article>
-          <h3>COMMS:</h3>
+          <h3>INFO:</h3>
           <ul>
-            <li>email: <a
+            <li>┌[█▓▒░email: <a
               href="mailto:n@th1.as"
               title='email'
               target='_blank'
               rel='noopener noreferrer'>
              n@th1.as
             </a></li>
-            <li>tox: <a
+            <li>├[█▓▒░tox: <a
               title='tox'
               target='_blank'
               rel='noopener noreferrer'>
              123219391391
             </a></li>
-            <li>irc: nathias</li>
-            <li>keybase: nathias</li>
+            <li>├[█▓▒░irc: nathias</li>
+            <li>└[█▓▒░keybase: nathias</li>
           </ul>
           <h3>SOCIAL:</h3>
           <ul>
