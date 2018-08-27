@@ -18,6 +18,7 @@ h1, h2, h3 {
   outline:none;
 }
 
+
 nav > ul {
   display: flex;
   align-items: center;
@@ -131,11 +132,41 @@ article > img {
   padding: 1rem;
 }
 
+/* contact */
 article > ul {
   list-style-type: none;
   margin-top: 2rem;
   margin-bottom: -1rem;
   margin-left: 6rem;
+}
+
+article > ul > div {
+}
+
+ul > li > div {
+  text-decoration: none;
+  color: #313131;
+  outline:none;
+  display: inline;
+}
+ul > li > div > a {
+  text-decoration: none;
+  color: #313131;
+  outline:none;
+  display: inline;
+}
+
+ul > li > a > div {
+  text-decoration: none;
+  color: #313131;
+  outline:none;
+  display: inline;
+}
+article > ul > li > div:hover {
+  animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
+}
+article > ul > li > a > div:hover {
+  animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
 }
 
 article > h3 {
@@ -155,9 +186,24 @@ article > h3:nth-of-type(3) {
   top: 6.0rem;
 }
 
-article > ul:nth-of-type(2) > li:nth-of-type(1) {
-  color: red;
+/* work */
+
+article > h2 {
+  position: relative;
+  right: 1.3rem;
 }
+
+article > h2:nth-of-type(1) {
+  top: 4.55rem;
+  margin-left: 2rem;
+}
+
+article > h2:nth-of-type(2) {
+  top: 4.5rem;
+  margin-left: 5.6rem;
+}
+
+/* whois */
 /* animation */
 
 @keyframes blinker {

@@ -7,30 +7,30 @@ class Contact extends Component {
         <article>
           <h3>COMM --</h3>
           <ul>
-            <li>┌[▓▒░email: <a
+            <li>┌[▓▒░<div>email: <a
               href="mailto:n@th1.as"
               title='email'
               target='_blank'
               rel='noopener noreferrer'>
              n@th1.as
-            </a></li>
-            <li>├[▓▒░tox: <a
+            </a></div></li>
+            <li>├[▓▒░<div>tox: <a
               href="tox:"
               title='tox'
               target='_blank'
               rel='noopener noreferrer'>
              123219391391
-            </a></li>
-            <li>├[▓▒░irc:<a
+            </a></div></li>
+            <li>├[▓▒░<div>irc:<a
               href="irc:freenode"
               title='irc'
               target='_blank'
-              rel='noopener noreferrer'> nathias</a></li>
-            <li>└[▓▒░keybase:<a
+              rel='noopener noreferrer'> nathias</a></div></li>
+            <li>└[▓▒░<div>keybase:<a
               href="https://keybase.io/nathias"
               title='keybase'
               target='_blank'
-              rel='noopener noreferrer'> nathias</a></li>
+              rel='noopener noreferrer'> nathias</a></div></li>
           </ul>
           <h3>PROJ --</h3>
           <ul>
@@ -39,20 +39,19 @@ class Contact extends Component {
               title='github'
               target='_blank'
               rel='noopener noreferrer'>
-             ┌[▓▒░github
-            </a></li>
+             ┌[▓▒░<div>github</div></a></li>
             <li><a
               href="https://independent.academia.edu/nathias"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>
-            ├[▓▒░academia.edu</a></li>
+              ├[▓▒░<div>academia.edu</div></a></li>
             <li><a
               href="https://www.deviantart.com/nihiln3gativum"
               title='deviantart'
               target='_blank'
               rel='noopener noreferrer'>
-            └[▓▒░deviantart</a></li>
+              └[▓▒░<div>deviantart</div></a></li>
           </ul>
           <h3>SOC --</h3>
           <ul>
@@ -61,31 +60,31 @@ class Contact extends Component {
               title='reddit'
               target='_blank'
               rel='noopener noreferrer'>
-            ┌[▓▒░reddit</a></li>
+              ┌[▓▒░<div>reddit</div></a></li>
             <li><a
               href="https://independent.academia.edu/nathias"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>
-            ├[▓▒░twitter</a></li>
+              ├[▓▒░<div>twitter</div></a></li>
             <li><a
               href="https://www.instagram.com/nihilnegativum"
               title='instagram'
               target='_blank'
               rel='noopener noreferrer'>
-            ├[▓▒░instagram</a></li>
+              ├[▓▒░<div>instagram</div></a></li>
             <li><a
               href="https://www.linkedin.com/in/nathias"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>
-            ├[▓▒░linkedin</a></li>
+              ├[▓▒░<div>linkedin</div></a></li>
             <li><a
               href="https://www.facebook.com/nath1as"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>
-            └[▓▒░facebook</a></li>
+              └[▓▒░<div>facebook</div></a></li>
           </ul>
         </article>
       </div>
