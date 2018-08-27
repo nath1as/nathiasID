@@ -1,41 +1,91 @@
 import React, { Component } from "react";
-import github from './files/img/githubPIXEL.png';
-import facebook from './files/img/facebookPIXELtest.png';
 
 class Contact extends Component {
   render() {
     return (
       <div>
         <article>
-          <h3>INFO:</h3>
+          <h3>COMM --</h3>
           <ul>
-            <li>┌[█▓▒░email: <a
+            <li>┌[▓▒░email: <a
               href="mailto:n@th1.as"
               title='email'
               target='_blank'
               rel='noopener noreferrer'>
              n@th1.as
             </a></li>
-            <li>├[█▓▒░tox: <a
+            <li>├[▓▒░tox: <a
+              href="tox:"
               title='tox'
               target='_blank'
               rel='noopener noreferrer'>
              123219391391
             </a></li>
-            <li>├[█▓▒░irc: nathias</li>
-            <li>└[█▓▒░keybase: nathias</li>
+            <li>├[▓▒░irc:<a
+              href="irc:freenode"
+              title='irc'
+              target='_blank'
+              rel='noopener noreferrer'> nathias</a></li>
+            <li>└[▓▒░keybase:<a
+              href="https://keybase.io/nathias"
+              title='keybase'
+              target='_blank'
+              rel='noopener noreferrer'> nathias</a></li>
           </ul>
-          <h3>SOCIAL:</h3>
+          <h3>PROJ --</h3>
           <ul>
-            <li><img />github</li>
-            <li><img />academia.edu</li>
-            <li><img />deviantart</li>
-
-            <li><img />reddit</li>
-            <li><img />twitter</li>
-            <li><img />instagram</li>
-            <li><img />linkedin</li>
-            <li><img />facebook</li>
+            <li><a
+              href="https://github.com/nath1as"
+              title='github'
+              target='_blank'
+              rel='noopener noreferrer'>
+             ┌[▓▒░github
+            </a></li>
+            <li><a
+              href="https://independent.academia.edu/nathias"
+              title='academia.edu'
+              target='_blank'
+              rel='noopener noreferrer'>
+            ├[▓▒░academia.edu</a></li>
+            <li><a
+              href="https://www.deviantart.com/nihiln3gativum"
+              title='deviantart'
+              target='_blank'
+              rel='noopener noreferrer'>
+            └[▓▒░deviantart</a></li>
+          </ul>
+          <h3>SOC --</h3>
+          <ul>
+            <li><a
+              href="https://www.reddit.com/user/nath1as"
+              title='reddit'
+              target='_blank'
+              rel='noopener noreferrer'>
+            ┌[▓▒░reddit</a></li>
+            <li><a
+              href="https://independent.academia.edu/nathias"
+              title='academia.edu'
+              target='_blank'
+              rel='noopener noreferrer'>
+            ├[▓▒░twitter</a></li>
+            <li><a
+              href="https://independent.academia.edu/nathias"
+              title='academia.edu'
+              target='_blank'
+              rel='noopener noreferrer'>
+            ├[▓▒░instagram</a></li>
+            <li><a
+              href="https://independent.academia.edu/nathias"
+              title='academia.edu'
+              target='_blank'
+              rel='noopener noreferrer'>
+            ├[▓▒░linkedin</a></li>
+            <li><a
+              href="https://independent.academia.edu/nathias"
+              title='academia.edu'
+              target='_blank'
+              rel='noopener noreferrer'>
+            └[▓▒░facebook</a></li>
           </ul>
         </article>
       </div>
