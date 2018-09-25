@@ -18,8 +18,8 @@ class Main extends Component {
         <nav className="nav">
           <ul>
             <li><NavLink exact to="/">main()</NavLink></li>
-            <li><NavLink to="/id"><span>id()</span></NavLink></li>
-            <li><NavLink to="/contact">contact()</NavLink></li>
+            <li><NavLink exact to="/id"><span>id()</span></NavLink></li>
+            <li><NavLink exact to="/contact">contact()</NavLink></li>
           </ul>
           <div>
             <Route exact path="/" component={Void}/>
