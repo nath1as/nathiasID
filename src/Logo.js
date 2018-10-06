@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-
-class Logo extends Component {
-  render() {
-    return (
-      <pre id="logo" class="glitch">
+const nths = `
 █▄
 ███▄
 ███▀█▄
@@ -18,7 +14,15 @@ class Logo extends Component {
 ███
 ███
 █▀
-      </pre>
+`
+class Logo extends Component {
+  render() {
+    return (
+      <div className="logo-wrap">
+        <pre id="logo" className="glitch">
+          {nths}
+        </pre>
+      </div>
     );
   }
 }

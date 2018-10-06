@@ -6,7 +6,7 @@ class Whois extends Component {
     return (
       <div>
         <article>
-          <img src={nathias} />
+          <img alt="nathias" src={nathias} />
           <p>
             class Nathias(Philosopher, Coder):<br/>
                 &nbsp;&nbsp;&nbsp;&nbsp; name = Matija<br/>

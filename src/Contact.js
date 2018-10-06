@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactCopyButtonWrapper  from "react-copy-button-wrapper";
 
 class Contact extends Component {
   render() {
@@ -7,30 +8,25 @@ class Contact extends Component {
         <article>
           <h3>COMM --</h3>
           <ul>
-            <li>┌[▓▒░<div>email: <a
+            <li>┌[▓▒░<div><a
               href="mailto:n@th1.as"
               title='email'
               target='_blank'
               rel='noopener noreferrer'>
-             n@th1.as
+             email: n@th1.as
             </a></div></li>
-            <li>├[▓▒░<div>tox: <a
-              href="tox:"
-              title='tox'
-              target='_blank'
-              rel='noopener noreferrer'>
-             123219391391
-            </a></div></li>
-            <li>├[▓▒░<div>irc:<a
+            <li>├[▓▒░<ReactCopyButtonWrapper text='F09170548175AED60A1C6252CDBDCFB2191182D4876A466AE1D2D98A5712BC0624FBB803D056'><button>tox: nathias</button></ReactCopyButtonWrapper>
+            </li>
+            <li>├[▓▒░<div><a
               href="irc:freenode"
               title='irc'
               target='_blank'
-              rel='noopener noreferrer'> nathias</a></div></li>
-            <li>└[▓▒░<div>keybase:<a
+              rel='noopener noreferrer'>irc: nathias</a></div></li>
+            <li>└[▓▒░<div><a
               href="https://keybase.io/nathias"
               title='keybase'
               target='_blank'
-              rel='noopener noreferrer'> nathias</a></div></li>
+              rel='noopener noreferrer'>keybase: nathias</a></div></li>
           </ul>
           <h3>PROJ --</h3>
           <ul>
@@ -56,17 +52,11 @@ class Contact extends Component {
           <h3>SOC --</h3>
           <ul>
             <li><a
-              href="https://www.reddit.com/user/nath1as"
-              title='reddit'
-              target='_blank'
-              rel='noopener noreferrer'>
-              ┌[▓▒░<div>reddit</div></a></li>
-            <li><a
               href="https://independent.academia.edu/nathias"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>
-              ├[▓▒░<div>twitter</div></a></li>
+              ┌[▓▒░<div>twitter</div></a></li>
             <li><a
               href="https://www.instagram.com/nihilnegativum"
               title='instagram'

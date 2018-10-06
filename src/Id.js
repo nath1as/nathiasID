@@ -3,7 +3,6 @@ import {
   Route,
   NavLink,
   HashRouter,
-  Redirect,
 } from "react-router-dom";
 import Whois from "./Whois";
 import Work from "./Work";
