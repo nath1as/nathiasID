@@ -1,13 +1,20 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background-color: #070707;
   overflow-x: hidden;
   overflow-y: hidden;
   outline:none;
-pointer-events: none;
+  pointer-events: none;
+  height: 100%;
 }
 
 * {
    outline: none;
+   border: none;
    }
 
 h1, h2, h3 {
@@ -16,14 +23,16 @@ h1, h2, h3 {
   font-size: 0.6rem;
 }
 
- ul > li > a {
+ul > li > a {
   text-decoration: none;
   color: #313131;
   outline:none;
 }
 
 nav {
-  margin: 0;
+  position: relative;
+  bottom: 10rem;
+  display: block;
 }
 
 nav > ul {
@@ -42,8 +51,11 @@ nav > ul > li {
   font-size: 2.3rem;
   font-family: 'VT323', monospace;
 
-  margin-left: -0.4rem;
-  margin-right: -0.4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  pointer-events: auto;
+  display: inline-block;
 }
 
 .nav > ul > li:before {
@@ -72,22 +84,25 @@ nav > ul > li:hover {
 }
 
 /* submenu */
+.submenu > ul {
+  position: relative;
+  top: 9.7rem;
+  left: -0.7rem;
+
+}
 .submenu > ul > li {
   font-size: 1.5rem;
-  margin: 0 0.1rem;
-  position: relative;
-  top: -0.7rem;
 }
 
 .submenu > ul > li:before {
   content:"/";
   visibility: hidden;
-  padding: 0.2rem;
+  /* padding: 0.2rem; */
 }
 
 .submenu > ul > li > :not(.active):before {
   content:"/";
-  /* visibility: hidden; */
+  visibility: hidden;
   padding: 0.2rem;
 }
 
@@ -95,8 +110,6 @@ nav > ul > li:hover {
   content:"/";
   font-weight: bold;
   padding: 0.3rem;
-  /* position: relative; */
-  /* top: -0.25rem; */
   animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
 }
 
@@ -107,7 +120,6 @@ nav > ul > li:hover {
 #root {
   display: flex;
   justify-content: center;
-  align-content: center;
   flex-direction: row;
   font-family: 'Roboto Mono', monospace;
   color:#313131;
@@ -117,37 +129,49 @@ nav > ul > li:hover {
   font-family: "Courier New", Courier, monospace;
   line-height: 1.7rem;
   font-size: 1.4rem;
-  /* margin: 0 auto; */
   color: #111;
-  margin-top: 25rem;
-  margin-bottom: 2rem;
-  padding: 0;
   cursor: cell;
   display: inline;
-  position: static;
-  z-index: 99;
   pointer-events: auto;
+}
+
+.logo-wrap {
+  display: inline-block;
+  margin-top: 35%;
+  margin-bottom: 2rem;
+  padding: 0;
 }
 
 
 article {
   margin: 0 auto;
-  margin: 1rem;
-  margin-top: -2.6rem;
-  margin-left: 4rem;
+  margin-left: 20%;
   padding: 1rem;
+}
+
+.whois {
+  margin-top: 10.3rem;
+}
+
+.work {
+  margin-top: 9.3rem;
 }
 
 article > img {
   float: left;
   padding: 1rem;
 }
+.article {
+  display: flex;
+  justify-content: center;
+}
 
 /* contact */
+.contact {
+  margin-top: 1.9rem;
+}
 article > ul {
   list-style-type: none;
-  margin-top: 2rem;
-  margin-bottom: -1rem;
   margin-left: 6rem;
 }
 
@@ -159,12 +183,14 @@ ul > li > div {
   color: #313131;
   outline:none;
   display: inline;
+  pointer-events: auto;
 }
 ul > li > div > a {
   text-decoration: none;
   color: #313131;
   outline:none;
   display: inline;
+
 }
 
 ul > li > a > div {
@@ -172,6 +198,7 @@ ul > li > a > div {
   color: #313131;
   outline:none;
   display: inline;
+  pointer-events: auto;
 }
  div div article ul li button {
   color: #313131;
@@ -179,6 +206,7 @@ ul > li > a > div {
   background: none;
   cursor: pointer;
   padding: 0;
+  pointer-events: auto;
 }
  div div article ul li button:hover {
   animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
@@ -197,19 +225,20 @@ article > ul > li > a > div:hover {
 
 article > h3 {
   position: relative;
-  right: 1.3rem;
+  right: 1.6rem;
   margin-left: 6rem;
 }
 
 article > h3:nth-of-type(1) {
-  top: 5.3rem;
+  top: 3.8rem;
 }
 
 article > h3:nth-of-type(2) {
-  top: 4.5rem;
+  top: 3.15rem;
 }
 article > h3:nth-of-type(3) {
-  top: 6.0rem;
+  top: 3.8rem;
+  right: 1rem;
 }
 
 /* work */
@@ -220,12 +249,12 @@ article > h2 {
 }
 
 article > h2:nth-of-type(1) {
-  top: 4.55rem;
-  margin-left: 2rem;
+  top: 3.15rem;
+  margin-left: 1.9rem;
 }
 
 article > h2:nth-of-type(2) {
-  top: 4.5rem;
+  top: 3.15rem;
   margin-left: 5.6rem;
 }
 

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "normalize.css": "^8.0.0",
+    "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-copy-button-wrapper": "0.0.6",
     "react-copy-to-clipboard": "^5.0.1",
@@ -16,5 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1"
   }
 }

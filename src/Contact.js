@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <article>
+        <article className="contact">
           <h3>COMM --</h3>
           <ul>
             <li>┌[▓▒░<div><a

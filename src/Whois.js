@@ -5,7 +5,7 @@ class Whois extends Component {
   render() {
     return (
       <div>
-        <article>
+        <article className="whois">
           <img alt="nathias" src={nathias} />
           <p>
             class Nathias(Philosopher, Coder):<br/>

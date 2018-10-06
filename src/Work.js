@@ -4,7 +4,7 @@ class Work extends Component {
   render() {
     return (
       <div>
-        <article>
+        <article className="work">
           <h2>PHILOSOPHY --</h2>
           <ul>
             <li><a
