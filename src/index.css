@@ -23,12 +23,23 @@ h1, h2, h3 {
   font-size: 0.6rem;
 }
 
+ul > li {
+  display: block;
+  overflow: visible;
+  white-space: nowrap;
+}
+
 ul > li > a {
   text-decoration: none;
   color: #313131;
   outline:none;
+  /* border: 2px solid red; */
+  text-overflow: ellipsis;
 }
 
+ul {
+  list-style: none;
+}
 nav {
   position: relative;
   bottom: 10rem;
@@ -153,9 +164,6 @@ article {
   margin-top: 9.5rem;
 }
 
-.work {
-  margin-top: 8.5rem;
-}
 
 article > img {
   float: left;
@@ -243,6 +251,52 @@ article > h3:nth-of-type(3) {
 
 /* work */
 
+.work {
+  margin-top: 8.5rem;
+
+}
+.work ul {
+
+}
+.up-scroll {
+  position: relative;
+  display: inline-block;
+  top: 2.3rem;
+  margin-left: 17rem;
+
+  font-stretch: extra-expanded;
+  pointer-events: auto;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  transform:scale(1.9,0.9);
+  -webkit-transform:scale(1.9,0.9);
+}
+
+.down-scroll {
+  position: relative;
+  display: inline-block;
+  bottom: 1.2rem;
+  margin-left: 17rem;
+
+  pointer-events: auto;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  transform:scale(1.9,0.9);
+  -webkit-transform:scale(1.9,0.9);
+
+}
+
+.down-scroll:hover {
+  animation: glitch 3s steps(100) infinite;
+  pointer-events: auto;
+}
+
+.up-scroll:hover {
+  animation: glitch 3s steps(100) infinite;
+  pointer-events: auto;
+}
 article > h2 {
   position: relative;
   right: 1.3rem;
