@@ -1,6 +1,11 @@
 /* contact */
 .contact {
-  margin-top: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 30rem;
+  border: 2px solid red;
 }
 
 .contact > ul {
@@ -43,6 +48,8 @@ div div .contact ul li button {
   padding: 0;
   pointer-events: auto;
 }
+
+/* animation */
  div div .contact ul li button:hover {
   animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
 }

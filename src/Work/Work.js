@@ -48,62 +48,70 @@ class Work extends Component {
             onClick={this.upScroll}>
             ▲
           </div>
-          <h2>PHILOSOPHY --</h2>
-          <ul>
-            <li><a
-              href={philosophyWork[firstWork].link}
-              title={philosophyWork[firstWork].publication}
-              target='_blank'
-              rel='noopener noreferrer'>
-              ┌[▓▒░<div>{philosophyWork[firstWork].name}
-              </div>
-            </a></li>
-            <li><a
-              href={philosophyWork[secondWork].link}
-              title={philosophyWork[secondWork].publication}
-              target='_blank'
-              rel='noopener noreferrer'>
-            ├[▓▒░<div>{philosophyWork[secondWork].name}
-              </div>
-            </a></li>
-            <li><a
-              href={philosophyWork[thirdWork].link}
-              title={philosophyWork[thirdWork].publication}
-              target='_blank'
-              rel='noopener noreferrer'>
-            └[▓▒░<div>{philosophyWork[thirdWork].name}
-              </div>
-            </a></li>
-          </ul>
-          <div className="down-scroll"
-            onClick={this.downScroll}>
-            ▼
+          <div className="philosophy">
+            <h2>PHILOSOPHY --</h2>
+            <ul>
+              <li><a
+                href={philosophyWork[firstWork].link}
+                title={philosophyWork[firstWork].publication}
+                target='_blank'
+                rel='noopener noreferrer'>
+                ┌[▓▒░{philosophyWork[firstWork].name}
+              </a></li>
+              <li><a
+                href={philosophyWork[secondWork].link}
+                title={philosophyWork[secondWork].publication}
+                target='_blank'
+                rel='noopener noreferrer'>
+              ├[▓▒░{philosophyWork[secondWork].name}
+              </a></li>
+              <li><a
+                href={philosophyWork[thirdWork].link}
+                title={philosophyWork[thirdWork].publication}
+                target='_blank'
+                rel='noopener noreferrer'>
+              └[▓▒░{philosophyWork[thirdWork].name}
+              </a></li>
+            </ul>
+            <div className="down-scroll"
+              onClick={this.downScroll}>
+              ▼
+            </div>
           </div>
 
-          <h2>CODE --</h2>
-          <ul>
-            <li><a
-              href="https://github.com/nath1as"
-              title='github'
-              target='_blank'
-              rel='noopener noreferrer'>
-             ┌[▓▒░<div>Name of project</div>
-            </a></li>
-            <li><a
-              href="https://independent.academia.edu/nathias"
-              title='academia.edu'
-              target='_blank'
-              rel='noopener noreferrer'>
-            ├[▓▒░<div>Name of project</div>
-            </a></li>
-            <li><a
-              href="https://www.deviantart.com/nihiln3gativum"
-              title='deviantart'
-              target='_blank'
-              rel='noopener noreferrer'>
-              └[▓▒░<div>Name of project</div>
-            </a></li>
-          </ul>
+          <div className="code">
+            <div className="up-scroll"
+              onClick={this.upScroll}>
+              ▲
+            </div>
+            <h2>CODE --</h2>
+            <ul>
+              <li><a
+                href="https://github.com/nath1as"
+                title='github'
+                target='_blank'
+                rel='noopener noreferrer'>
+               ┌[▓▒░Name of project
+              </a></li>
+              <li><a
+                href="https://independent.academia.edu/nathias"
+                title='academia.edu'
+                target='_blank'
+                rel='noopener noreferrer'>
+              ├[▓▒░Name of project
+              </a></li>
+              <li><a
+                href="https://www.deviantart.com/nihiln3gativum"
+                title='deviantart'
+                target='_blank'
+                rel='noopener noreferrer'>
+                └[▓▒░Name of project
+              </a></li>
+            </ul>
+          </div>
+          <div className="down-scroll" onClick={this.downScroll}>
+            ▼
+          </div>
         </article>
       </div>
     );

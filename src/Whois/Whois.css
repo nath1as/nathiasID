@@ -1,19 +1,25 @@
 .whois {
-  margin-top: 9.5rem;
-}
-
-.whois {
-  margin: 0 auto;
-  margin-left: 20%;
+  margin-top: 5.2rem;
+  /* margin-left: 20rem; */
   padding: 1rem;
-}
-
-.whois > img {
-  float: left;
-  padding: 1rem;
-}
-.whois {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  border: 2px solid red;
+}
+
+
+.whois > img {
+  padding: 1rem;
+  width: 15%;
+  height: 15%;
+  border: 0.18rem dashed #111;
+  border-radius: 20px;
+}
+
+.whois > p {
+  width: 23rem;
+  padding: 0 2rem;
+  margin: 0rem;
 }
 

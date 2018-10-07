@@ -35,5 +35,5 @@ class Id extends Component {
     );
   }
 }
- 
+
 export default Id;

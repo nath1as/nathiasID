@@ -8,8 +8,7 @@ class Whois extends Component {
       <div>
         <article className="whois">
           <img alt="nathias" src={nathias} />
-          <p>
-            class Nathias(Philosopher, Coder):<br/>
+          <p>class Nathias(Philosopher, Coder):<br/>
                 &nbsp;&nbsp;&nbsp;&nbsp; name = Matija<br/>
                 &nbsp;&nbsp;&nbsp;&nbsp; surname = Potocnik Pribosic<br/>
 

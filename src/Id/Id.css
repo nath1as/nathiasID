@@ -1,34 +1,31 @@
 /* submenu */
 .submenu > ul {
   position: relative;
-  top: 8.7rem;
+  top: 3.0rem;
   left: -0.7rem;
-
 }
 .submenu > ul > li {
   font-size: 1.5rem;
+  padding: 0 1.5rem;
 }
 
+/* animations */
 .submenu > ul > li:before {
   content:"/";
   visibility: hidden;
-  /* padding: 0.2rem; */
 }
 
 .submenu > ul > li > :not(.active):before {
   content:"/";
   visibility: hidden;
-  padding: 0.2rem;
 }
 
 .submenu > ul > li > .active:before {
   content:"/";
   font-weight: bold;
-  padding: 0.3rem;
   animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
 }
 
 .submenu ul > li > .active {
   animation: glitch 4s steps(100) 1;
 }
-
