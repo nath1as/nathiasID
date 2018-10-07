@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactCopyButtonWrapper  from "react-copy-button-wrapper";
+import "./Contact.css";
 
 class Contact extends Component {
   render() {

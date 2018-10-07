@@ -3,14 +3,13 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
-import Void from "./Void";
-import Logo from "./Logo";
-import Id from "./Id";
-import Contact from "./Contact";
-import Resume from "./Resume";
-
+import Void from "../Void/Void";
+import Id from "../Id/Id";
+import Contact from "../Contact/Contact";
+import Resume from "../Resume";
 import PropTypes from 'prop-types'
 import { withRouter } from 'react-router'
+import "./Menu.css";
 
 class Menu extends Component {
 
@@ -50,7 +49,6 @@ class Menu extends Component {
 
     return (
         <div>
-          <Logo />
           <nav>
             <ul >
               <li>
@@ -79,7 +77,7 @@ class Menu extends Component {
         </div>
     );
   }
-} 
+}
 
 export default withRouter(Menu);
 

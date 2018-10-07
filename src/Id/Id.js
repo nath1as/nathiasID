@@ -4,8 +4,9 @@ import {
   NavLink,
   HashRouter,
 } from "react-router-dom";
-import Whois from "./Whois";
-import Work from "./Work";
+import Whois from "../Whois/Whois";
+import Work from "../Work/Work";
+import "./Id.css";
 
 class Id extends Component {
   render() {

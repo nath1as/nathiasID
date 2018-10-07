@@ -1,21 +1,21 @@
-html {
-  height: 100%;
-  overflow: hidden;
-}
-
 body {
   background-color: #070707;
   overflow-x: hidden;
   overflow-y: hidden;
   outline:none;
-  pointer-events: none;
-  height: 100%;
 }
 
 * {
    outline: none;
    border: none;
-   }
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
 
 h1, h2, h3 {
   font-family: 'Press Start 2P', cursive;
@@ -25,25 +25,25 @@ h1, h2, h3 {
 
 ul > li {
   display: block;
-  overflow: visible;
+  overflow: hidden;
   white-space: nowrap;
+  width: 200%;
 }
 
 ul > li > a {
-  text-decoration: none;
-  color: #313131;
-  outline:none;
-  /* border: 2px solid red; */
-  text-overflow: ellipsis;
+  color: #1c1c1c;
+
+  white-space: nowrap;
+  text-overflow: ellipsis-word;
+  -webkit-text-stroke: 0.1px #313131;
 }
 
-ul {
-  list-style: none;
-}
 nav {
   position: relative;
   bottom: 10rem;
   display: block;
+  padding: 0;
+  margin: 0;
 }
 
 nav > ul {
@@ -55,7 +55,9 @@ nav > ul {
   position: relative;
   list-style: none;
   top: -1.0rem;
-  left: 1.5rem;
+  left: -2.5rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 nav > ul > li {
@@ -97,7 +99,7 @@ nav > ul > li:hover {
 /* submenu */
 .submenu > ul {
   position: relative;
-  top: 9.7rem;
+  top: 8.7rem;
   left: -0.7rem;
 
 }
@@ -134,23 +136,6 @@ nav > ul > li:hover {
   flex-direction: row;
   font-family: 'Roboto Mono', monospace;
   color:#313131;
-}
-
-#logo {
-  font-family: "Courier New", Courier, monospace;
-  line-height: 1.7rem;
-  font-size: 1.4rem;
-  color: #111;
-  cursor: cell;
-  display: inline;
-  pointer-events: auto;
-}
-
-.logo-wrap {
-  display: inline-block;
-  margin-top: 27%;
-  margin-bottom: 2rem;
-  padding: 0;
 }
 
 
@@ -256,12 +241,13 @@ article > h3:nth-of-type(3) {
 
 }
 .work ul {
+  max-width: 20rem;
 
 }
 .up-scroll {
   position: relative;
   display: inline-block;
-  top: 2.3rem;
+  top: 2.0rem;
   margin-left: 17rem;
 
   font-stretch: extra-expanded;
@@ -276,7 +262,7 @@ article > h3:nth-of-type(3) {
 .down-scroll {
   position: relative;
   display: inline-block;
-  bottom: 1.2rem;
+  bottom: 1.0rem;
   margin-left: 17rem;
 
   pointer-events: auto;

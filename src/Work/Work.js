@@ -1,16 +1,15 @@
 import React, { Component } from "react";
-import philosophy from "./philosophy-work.json";
+import philosophy from "../files/data/philosophy-work.json";
+import "./Work.css";
 
 class Work extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
+      counter: Object.values(philosophy).length - 3,
+      max: Object.values(philosophy).length,
       philosophy: philosophy,
-      counter: 0,
-      firstWork: 0,
-      secondWork: 1,
-      thirdWork: 2,
     };
 
     this.upScroll = this.upScroll.bind(this);
@@ -18,19 +17,29 @@ class Work extends Component {
   }
 
   upScroll() {
-    this.setState({ counter: this.state.counter +1, });
-    console.log(this.state.counter);
+    if (this.state.counter < this.state.max - 3) {
+      this.setState({
+        counter: this.state.counter + 1,
 
+      });
+    }
   }
 
   downScroll() {
-    this.setState({
+    if (this.state.counter > 1) {
+      this.setState({
+        counter: this.state.counter - 1,
 
-    });
+      });
+    }
   }
   render() {
-    const { philosophy, firstWork, secondWork, thirdWork, upScroll, downScroll } = this.state;
+    const { philosophy } = this.state;
     const philosophyWork = Object.values(philosophy);
+
+    let firstWork = this.state.counter + 2;
+    let secondWork = this.state.counter + 1;
+    let thirdWork = this.state.counter ;
 
     return (
       <div>
@@ -67,7 +76,7 @@ class Work extends Component {
             </a></li>
           </ul>
           <div className="down-scroll"
-            onClick={downScroll}>
+            onClick={this.downScroll}>
             ▼
           </div>
 

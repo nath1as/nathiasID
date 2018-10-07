@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./Nathias.css";
+
 const nths = `
 █▄
 ███▄
@@ -14,7 +16,8 @@ const nths = `
 ███
 ███
 █▀
-`
+`;
+
 class Logo extends Component {
   render() {
     return (
