@@ -1,0 +1,78 @@
+/* contact */
+.contact {
+  margin-top: 1.1rem;
+}
+
+.contact > ul {
+  list-style-type: none;
+  margin-left: 6rem;
+}
+
+.contact > ul > div {
+}
+
+.contact > ul > li > div {
+  text-decoration: none;
+  color: #313131;
+  outline:none;
+  display: inline;
+  pointer-events: auto;
+}
+
+.contact > ul > li > div > a {
+  text-decoration: none;
+  color: #313131;
+  outline:none;
+  display: inline;
+
+}
+
+.contact > ul > li > a > div {
+  text-decoration: none;
+  color: #313131;
+  outline:none;
+  display: inline;
+  pointer-events: auto;
+}
+
+div div .contact ul li button {
+  color: #313131;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  pointer-events: auto;
+}
+ div div .contact ul li button:hover {
+  animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
+}
+ div div .contact ul li button:hover:after {
+  animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
+  content: "  copy"
+}
+
+.contact > ul > li > div:hover {
+  animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
+}
+.contact > ul > li > a > div:hover {
+  animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
+}
+
+.contact > h3 {
+  position: relative;
+  right: 1.6rem;
+  margin-left: 6rem;
+}
+
+.contact > h3:nth-of-type(1) {
+  top: 3.8rem;
+}
+
+.contact > h3:nth-of-type(2) {
+  top: 3.15rem;
+}
+
+.contact > h3:nth-of-type(3) {
+  top: 3.8rem;
+  right: 1rem;
+}

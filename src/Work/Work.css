@@ -1,0 +1,81 @@
+.work {
+  margin-top: 8.5rem;
+
+}
+
+.work ul {
+  max-width: 20rem;
+
+}
+
+.up-scroll {
+  position: relative;
+  display: inline-block;
+  top: 2.0rem;
+  margin-left: 17rem;
+
+  font-stretch: extra-expanded;
+  pointer-events: auto;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  transform:scale(1.9,0.9);
+  -webkit-transform:scale(1.9,0.9);
+}
+
+.down-scroll {
+  position: relative;
+  display: inline-block;
+  bottom: 1.0rem;
+  margin-left: 17rem;
+
+  pointer-events: auto;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  transform:scale(1.9,0.9);
+  -webkit-transform:scale(1.9,0.9);
+
+}
+
+.down-scroll:hover {
+  animation: glitch 3s steps(100) infinite;
+  pointer-events: auto;
+}
+
+.up-scroll:hover {
+  animation: glitch 3s steps(100) infinite;
+  pointer-events: auto;
+}
+
+.work > h2 {
+  position: relative;
+  right: 1.3rem;
+}
+
+.work > h2:nth-of-type(1) {
+  top: 3.15rem;
+  margin-left: 1.9rem;
+}
+
+.work > h2:nth-of-type(2) {
+  top: 3.15rem;
+  margin-left: 5.6rem;
+}
+
+ /* work content */
+ /* .work  ul > li { */
+ /*  display: block; */
+ /*  overflow: hidden; */
+ /*  white-space: nowrap; */
+ /*  width: 200%; */
+/* } */
+
+/* .work ul > li > a { */
+ /*  color: #1c1c1c; */
+
+ /*  white-space: nowrap; */
+ /*  text-overflow: ellipsis-word; */
+ /*  -webkit-text-stroke: 0.1px #313131; */
+/* } */
+

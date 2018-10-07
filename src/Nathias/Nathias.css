@@ -4,15 +4,18 @@
   font-size: 1.4rem;
   color: #111;
   cursor: cell;
-  display: inline;
   pointer-events: auto;
-  /* -webkit-text-stroke: 0.1rem #111; */
+
+  width: 39rem;
+  height: 0.01rem;
+  z-index: -1;
+  position: fixed;
+  margin-top: 10rem;
 }
 
 .logo-wrap {
-  display: block;
-  margin-top: 27%;
-  margin-bottom: 2rem;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
 }
-

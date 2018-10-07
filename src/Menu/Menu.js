@@ -49,7 +49,7 @@ class Menu extends Component {
 
     return (
         <div>
-          <nav>
+          <nav className="main-nav">
             <ul >
               <li>
                 <NavLink exact to="/">

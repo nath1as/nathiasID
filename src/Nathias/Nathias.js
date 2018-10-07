@@ -23,7 +23,7 @@ class Logo extends Component {
     return (
       <div className="logo-wrap">
         <pre id="logo" className="glitch">
-          {nths}
+          { nths }
         </pre>
       </div>
     );

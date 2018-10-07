@@ -1,0 +1,51 @@
+.main-nav {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+nav > ul {
+  position: fixed;
+  margin-top: 27rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+nav > ul > li {
+  font-size: 2.3rem;
+  font-family: 'VT323', monospace;
+  margin: 0 -0.7rem;
+  pointer-events: auto;
+}
+
+/* animations */
+nav > ul > li:hover {
+ animation: glitch 3s steps(100) infinite;
+}
+
+nav > ul > li:hover {
+ animation: glitch 3s steps(100) infinite;
+}
+
+.main-nav > ul > li:before {
+  content:">";
+  visibility: hidden;
+  padding: 0.4rem;
+}
+
+.main-nav > ul > li > :not(.active):before {
+  content:">";
+  visibility: hidden;
+  padding: 0.4rem;
+}
+
+.main-nav > ul > li > .active:before {
+  content:">";
+  font-weight: bold;
+  padding: 0.4rem;
+  position: relative;
+  top: 0.15rem;
+  animation: glitch 4s steps(100) 1, blinker 1.5s linear 6;
+}
