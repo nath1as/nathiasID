@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "apollo-boost": "^0.1.16",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
     "normalize.css": "^8.0.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
+    "react-apollo": "^2.2.4",
     "react-copy-button-wrapper": "0.0.6",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.4.2",

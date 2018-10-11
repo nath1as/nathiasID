@@ -8,7 +8,7 @@
 
   width: 39rem;
   height: 0.01rem;
-  z-index: -1;
+  z-index: 999;
   position: fixed;
   margin-top: 9.5rem;
 }

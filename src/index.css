@@ -21,6 +21,7 @@ h1, h2, h3 {
 /* glitch */
 .glitch:hover {
  animation: glitch 2s steps(100) infinite;
+  z-index: 999;
 }
 
 @keyframes glitch {
