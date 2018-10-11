@@ -31,51 +31,51 @@ class Contact extends Component {
           </ul>
           <h3>PROJ --</h3>
           <ul>
-            <li><a
+            <li>┌[▓▒░<a
               href="https://github.com/nath1as"
               title='github'
               target='_blank'
               rel='noopener noreferrer'>
-             ┌[▓▒░<div>github</div></a></li>
-            <li><a
+              <div>github</div></a></li>
+            <li>├[▓▒░<a
               href="https://independent.academia.edu/nathias"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>
-              ├[▓▒░<div>academia.edu</div></a></li>
-            <li><a
+              <div>academia.edu</div></a></li>
+            <li>└[▓▒░<a
               href="https://www.deviantart.com/nihiln3gativum"
               title='deviantart'
               target='_blank'
               rel='noopener noreferrer'>
-              └[▓▒░<div>deviantart</div></a></li>
+              <div>deviantart</div></a></li>
           </ul>
           <h3>SOC --</h3>
           <ul>
-            <li><a
+            <li>┌[▓▒░<a
               href="https://independent.academia.edu/nathias"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>
-              ┌[▓▒░<div>twitter</div></a></li>
-            <li><a
+              <div>twitter</div></a></li>
+            <li>├[▓▒░<a
               href="https://www.instagram.com/nihilnegativum"
               title='instagram'
               target='_blank'
               rel='noopener noreferrer'>
-              ├[▓▒░<div>instagram</div></a></li>
-            <li><a
+              <div>instagram</div></a></li>
+            <li>├[▓▒░<a
               href="https://www.linkedin.com/in/nathias"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>
-              ├[▓▒░<div>linkedin</div></a></li>
-            <li><a
+              <div>linkedin</div></a></li>
+            <li>└[▓▒░<a
               href="https://www.facebook.com/nath1as"
               title='academia.edu'
               target='_blank'
               rel='noopener noreferrer'>
-              └[▓▒░<div>facebook</div></a></li>
+              <div>facebook</div></a></li>
           </ul>
         </article>
       </div>

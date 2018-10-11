@@ -4,6 +4,7 @@
   align-content: center;
   flex-direction: column;
   margin-top: 3.7rem;
+  margin-left: 15rem;
   overflow: hidden;
 }
 
@@ -12,8 +13,7 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  margin-bottom: 2rem;
-  /* border: 2px solid red; */
+  margin-bottom: 0rem;
 }
 
 .code {
@@ -21,8 +21,7 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  margin-top: 2rem;
-  /* border: 2px solid red; */
+  margin-top: -2rem;
 }
 
 .philosophy > h2 {
@@ -46,19 +45,28 @@
   overflow: hidden;
   pointer-events: auto;
 
+  white-space: nowrap;
   cursor: pointer;
-  max-width: 26rem;
-  min-width: 26rem;
+  max-width: 23rem;
+  min-width: 23rem;
+  text-overflow: ellipsis-word;
 }
 
+.code > ul > li > a:hover {
+  animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
+}
+
+.philosophy > ul > li > a:hover {
+  animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
+}
 .philosophy > ul > li > a {
   color: #333;
 
-  overflow: hidden;
+  /* overflow: hidden; */
   white-space: nowrap;
   text-overflow: ellipsis-word;
-  -webkit-text-stroke: 0.1px #313131;
 }
+
 
 /* code */
 
@@ -72,8 +80,8 @@
   pointer-events: auto;
 
   cursor: pointer;
-  max-width: 26rem;
-  min-width: 26rem;
+  max-width: 23rem;
+  min-width: 23rem;
 }
 
 .code > ul > li > a {

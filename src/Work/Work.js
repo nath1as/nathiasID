@@ -51,26 +51,26 @@ class Work extends Component {
           <div className="philosophy">
             <h2>PHILOSOPHY --</h2>
             <ul>
-              <li><a
+              <li>┌[▓▒░<a
                 href={philosophyWork[firstWork].link}
                 title={philosophyWork[firstWork].publication}
                 target='_blank'
                 rel='noopener noreferrer'>
-                ┌[▓▒░{philosophyWork[firstWork].name}
+                {philosophyWork[firstWork].name}
               </a></li>
-              <li><a
+              <li>├[▓▒░<a
                 href={philosophyWork[secondWork].link}
                 title={philosophyWork[secondWork].publication}
                 target='_blank'
                 rel='noopener noreferrer'>
-              ├[▓▒░{philosophyWork[secondWork].name}
+              {philosophyWork[secondWork].name}
               </a></li>
-              <li><a
+              <li>└[▓▒░<a
                 href={philosophyWork[thirdWork].link}
                 title={philosophyWork[thirdWork].publication}
                 target='_blank'
                 rel='noopener noreferrer'>
-              └[▓▒░{philosophyWork[thirdWork].name}
+              {philosophyWork[thirdWork].name}
               </a></li>
             </ul>
             <div className="down-scroll"
@@ -86,27 +86,28 @@ class Work extends Component {
             </div>
             <h2>CODE --</h2>
             <ul>
-              <li><a
+              <li>┌[▓▒░<a
                 href="https://github.com/nath1as"
                 title='github'
                 target='_blank'
                 rel='noopener noreferrer'>
-               ┌[▓▒░Name of project
+               Name of project
               </a></li>
-              <li><a
+              <li>├[▓▒░<a
                 href="https://independent.academia.edu/nathias"
                 title='academia.edu'
                 target='_blank'
                 rel='noopener noreferrer'>
-              ├[▓▒░Name of project
+              Name of project
               </a></li>
-              <li><a
-                href="https://www.deviantart.com/nihiln3gativum"
-                title='deviantart'
-                target='_blank'
-                rel='noopener noreferrer'>
-                └[▓▒░Name of project
-              </a></li>
+              <li>
+                └[▓▒░<a
+                  href="https://www.deviantart.com/nihiln3gativum"
+                  title='deviantart'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  Name of project
+                </a></li>
             </ul>
           </div>
           <div className="down-scroll" onClick={this.downScroll}>
