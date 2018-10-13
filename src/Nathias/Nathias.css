@@ -2,13 +2,13 @@
   font-family: "Courier New", Courier, monospace;
   line-height: 1.7rem;
   font-size: 1.4rem;
-  color: #111;
+  color: #141414;
   cursor: cell;
   pointer-events: auto;
 
   width: 39rem;
   height: 0.01rem;
-  z-index: 999;
+  /* z-index: 999; */
   position: fixed;
   margin-top: 9.5rem;
 }

@@ -1,11 +1,11 @@
 body {
   background-color: #070707;
   font-family: 'Roboto Mono', monospace;
-  color:#313131;
+  color:#262626;
 }
 a {
-  color: #222;
-color: #1F1F1F;
+  color:#262626;
+  color:#222;
 }
 h1, h2, h3 {
   font-family: 'Press Start 2P', cursive;

@@ -34,7 +34,7 @@
   animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
 }
 .philosophy > ul > li > a {
-  color: #333;
+  color: #323232;
 
   /* overflow: hidden; */
   white-space: nowrap;
