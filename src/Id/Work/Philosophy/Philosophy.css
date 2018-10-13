@@ -21,13 +21,15 @@
 
 .philosophy > ul > li {
   overflow: hidden;
-  pointer-events: auto;
 
   white-space: nowrap;
-  cursor: pointer;
   max-width: 23rem;
   min-width: 23rem;
   text-overflow: ellipsis-word;
+}
+.philosophy > ul > li > a {
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 .philosophy > ul > li > a:hover {

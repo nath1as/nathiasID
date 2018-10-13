@@ -24,6 +24,10 @@ h1, h2, h3 {
   z-index: 999;
 }
 
+.glitch {
+ animation: glitch 2s steps(100) 0.4;
+  z-index: 999;
+}
 @keyframes glitch {
 0%{text-shadow:1px 0 0 #8A14FF,-1px 0 0 #0085FF;}
 1%{text-shadow:1px 0 0 #8A14FF,-1px 0 0 #0085FF;}

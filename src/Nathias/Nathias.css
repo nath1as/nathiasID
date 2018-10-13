@@ -3,6 +3,7 @@
   line-height: 1.7rem;
   font-size: 1.4rem;
   color: #141414;
+  color: #111;
   cursor: cell;
   pointer-events: auto;
 
@@ -18,4 +19,8 @@
   justify-content: center;
   flex-direction: row;
   align-content: center;
+}
+
+#logo:hover {
+  color: #111;
 }

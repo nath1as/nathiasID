@@ -16,9 +16,9 @@
   border-radius: 20px;
 }
 
-.whois > p {
-  width: 23rem;
+.bio {
+  width: 24rem;
   padding: 0 2rem;
   margin: 0rem;
+  pointer-events: auto;
 }
-

@@ -35,15 +35,16 @@
 
 .code > ul > li {
   overflow: hidden;
-  pointer-events: auto;
 
-  cursor: pointer;
   max-width: 23rem;
   min-width: 23rem;
 }
 
 .code > ul > li > a {
   color: #323232;
+
+  pointer-events: auto;
+  cursor: pointer;
 
   overflow: hidden;
   white-space: nowrap;

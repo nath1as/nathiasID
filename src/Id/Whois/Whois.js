@@ -8,7 +8,10 @@ class Whois extends Component {
       <div>
         <article className="whois">
           <img alt="nathias" src={nathias} />
-          <p> I am an unaffiliated researcher of abstraction, blablabla bla Sunt sit ipsam ea sed ut ut optio iure. Possimus incidunt nulla inventore excepturi vero corporis quae aut. Quia enim non qui nostrum. Nisi soluta molestias corporis voluptatem vel sequi. Accusamus itaque aut ea voluptas autem nihil tempore.… </p>
+          <p className="bio">
+            <h3> Hello!</h3>
+            I am a philosopher and a coder interested in epistemology as theory of abstraction, which I consider as the intersection of philosophy, linguistics and computer science. My philosophical project is the development of a modern rationalism  compatible with naturalism and the discoveries of natural sciences.
+          </p>
         </article>
       </div>
     );
