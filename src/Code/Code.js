@@ -20,18 +20,48 @@ const client = new ApolloClient({
 
 const query =gql`query {
     user(login:"nath1as") {
-      repositories(isFork: false, last: 3) {
+      repositories(isFork: false, first: 10, orderBy: {field: PUSHED_AT, direction: DESC}) {
         nodes {name}}
       }
   }
 `;
 
 
-
 class Code extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      counter: 0,
+      max: 10,
+    };
+
+    this.upScroll = this.upScroll.bind(this);
+    this.downScroll = this.downScroll.bind(this);
+  }
+
+  downScroll() {
+    if (this.state.counter < this.state.max - 3) {
+      this.setState({
+        counter: this.state.counter + 1,
+
+      });
+    }
+  }
+
+  upScroll() {
+    if (this.state.counter > 1) {
+      this.setState({
+        counter: this.state.counter - 1,
+
+      });
+    }
+  }
 
 
   render() {
+
+  const counter = this.state.counter;
 
 
     return(
@@ -54,7 +84,7 @@ class Code extends Component {
                       title='github'
                       target='_blank'
                       rel='noopener noreferrer'>
-                      {' '}{ (idx < 1) ? node.name : ''  }
+                      {' '}{ (idx < counter + 1 && idx > counter - 1) ? node.name : ''  }
                     </a>
                   ));
                 }}
@@ -73,7 +103,7 @@ class Code extends Component {
                       title='github'
                       target='_blank'
                       rel='noopener noreferrer'>
-                      { (idx < 2 && idx > 0) ? node.name : ''  }
+                      {' '}{ (idx < counter + 2 && idx > counter) ? node.name : ''  }
                     </a>
                   ));
                 }}
@@ -92,7 +122,7 @@ class Code extends Component {
                       title='github'
                       target='_blank'
                       rel='noopener noreferrer'>
-                      { (idx < 3 && idx > 1) ? node.name : ''  }
+                      {' '}{ (idx < counter + 3 && idx > counter + 1) ? node.name : ''  }
                     </a>
                   ));
                 }}
