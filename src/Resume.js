@@ -5,7 +5,9 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <a href={pdf}>English resume</a>
+        <h3> Resume </h3>
+        <a href={pdf}>Slovenscina</a>
+        <a href={pdf}>English</a>
       </div>
     );
   }

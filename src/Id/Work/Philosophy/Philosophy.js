@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import philosophy from "../../files/data/philosophy-work.json";
+import philosophy from "../../../files/data/philosophy-work.json";
 import "./Philosophy.css";
 
 class Philosophy extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import nathias from "../files/img/nathias.png";
+import nathias from "../../files/img/nathias.png";
 import "./Whois.css";
 
 class Whois extends Component {
