@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import philosophy from "../files/data/philosophy-work.json";
 import "./Work.css";
-import Code from "../Code/Code";
 
 class Work extends Component {
   constructor(props) {
@@ -79,7 +78,41 @@ class Work extends Component {
               ▼
             </div>
           </div>
-          <Code />
+
+          <div className="code">
+            <div className="up-scroll"
+              onClick={this.upScroll}>
+              ▲
+            </div>
+            <h2>CODE --</h2>
+            <ul>
+              <li>┌[▓▒░<a
+                href="https://github.com/nath1as"
+                title='github'
+                target='_blank'
+                rel='noopener noreferrer'>
+               Name of project
+              </a></li>
+              <li>├[▓▒░<a
+                href="https://independent.academia.edu/nathias"
+                title='academia.edu'
+                target='_blank'
+                rel='noopener noreferrer'>
+              Name of project
+              </a></li>
+              <li>
+                └[▓▒░<a
+                  href="https://www.deviantart.com/nihiln3gativum"
+                  title='deviantart'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  Name of project
+                </a></li>
+            </ul>
+            <div className="down-scroll" onClick={this.downScroll}>
+              ▼
+            </div>
+          </div>
         </article>
       </div>
     );
@@ -87,3 +120,4 @@ class Work extends Component {
 }
 
 export default Work;
+
