@@ -21,7 +21,7 @@ class Menu extends Component {
     const { location } = this.props;
     const locationArray = location.pathname.split('/');
     const display = locationArray[locationArray.length -1];
-    const menu = () => {
+    const main = () => {
       if (display.length <= 1 ) {
         return 'void';
       } else {
@@ -53,7 +53,7 @@ class Menu extends Component {
             <ul >
               <li>
                 <NavLink exact to="/">
-                  menu({ menu() })
+                  main({ main() })
                 </NavLink>
               </li>
               <li>

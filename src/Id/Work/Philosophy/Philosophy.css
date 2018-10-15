@@ -26,10 +26,12 @@
   max-width: 23rem;
   min-width: 23rem;
   text-overflow: ellipsis-word;
+  height: 1.1rem;
 }
 .philosophy > ul > li > a {
   pointer-events: auto;
   cursor: pointer;
+
 }
 
 .philosophy > ul > li > a:hover {
@@ -37,6 +39,7 @@
 }
 .philosophy > ul > li > a {
   color: #323232;
+  display: inline-block;
 
   /* overflow: hidden; */
   white-space: nowrap;

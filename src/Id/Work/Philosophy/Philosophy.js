@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import philosophy from "../../../files/data/philosophy-work.json";
 import "./Philosophy.css";
+import Typing from 'react-typing-animation';
 
 class Philosophy extends Component {
   constructor(props) {
@@ -54,21 +55,35 @@ class Philosophy extends Component {
             title={philosophyWork[firstWork].publication}
             target='_blank'
             rel='noopener noreferrer'>
-            {' '}{philosophyWork[firstWork].name}
+            <Typing speed={10}>
+              <span>
+                {' '}{philosophyWork[firstWork].name}
+              </span>
+            </Typing>
           </a></li>
           <li>├[▓▒░<a
             href={philosophyWork[secondWork].link}
             title={philosophyWork[secondWork].publication}
             target='_blank'
             rel='noopener noreferrer'>
-            {' '}{philosophyWork[secondWork].name}
+            <Typing speed={10}>
+              <span>
+              <Typing.Delay ms={500} />
+                {' '}{philosophyWork[secondWork].name}
+              </span>
+            </Typing>
           </a></li>
           <li>└[▓▒░<a
             href={philosophyWork[thirdWork].link}
             title={philosophyWork[thirdWork].publication}
             target='_blank'
             rel='noopener noreferrer'>
-            {' '}{philosophyWork[thirdWork].name}
+            <Typing speed={10}>
+              <span>
+              <Typing.Delay ms={1000} />
+                {' '}{philosophyWork[thirdWork].name}
+              </span>
+            </Typing>
           </a></li>
         </ul>
         <div className="down-scroll"

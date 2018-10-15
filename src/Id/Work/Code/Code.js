@@ -4,6 +4,7 @@ import 'cross-fetch/polyfill';
 import ApolloClient from 'apollo-boost';
 import gql from 'graphql-tag';
 import "./Code.css";
+import Typing from 'react-typing-animation';
 
 // require('dotenv').config();
 
@@ -62,7 +63,7 @@ class Code extends Component {
 
   render() {
 
-  const counter = this.state.counter;
+    const counter = this.state.counter;
 
 
     return(
@@ -77,7 +78,12 @@ class Code extends Component {
           ┌[▓▒░<ApolloProvider client={ client }>
               <Query query={ query } >
                 {({ loading, error, data }) => {
-                  if (loading) return <div className="loading"> Loading...</div>;
+                  if (loading) return (
+                    <div className="loading">
+                      <Typing className="loading">
+                        Loading...
+                      </Typing>
+                    </div>);
                   if (error) return <p>{console.log(error)}Connection failed...</p>;
                   return data.user.repositories.nodes.map((node, idx) => (
                     <a key={node.name}
@@ -85,7 +91,9 @@ class Code extends Component {
                       title='github'
                       target='_blank'
                       rel='noopener noreferrer'>
-                      {' '}{ (idx < counter + 1 && idx > counter - 1) ? node.name : ''  }
+                      <Typing speed={10}>
+                        {' '}{ (idx < counter + 1 && idx > counter - 1) ? node.name : ''  }
+                      </Typing>
                     </a>
                   ));
                 }}
@@ -96,7 +104,11 @@ class Code extends Component {
             <ApolloProvider client={ client }>
               <Query query={ query } >
                 {({ loading, error, data }) => {
-                  if (loading) return <div className="loading"> Loading...</div>;
+                  if (loading) return <div className="loading">
+                      <Typing className="loading">
+                        Loading...
+                      </Typing>
+                        </div>;
                   if (error) return <p>{console.log(error)}Connection failed...</p>;
                   return data.user.repositories.nodes.map((node, idx) => (
                     <a key={node.name}
@@ -104,7 +116,10 @@ class Code extends Component {
                       title='github'
                       target='_blank'
                       rel='noopener noreferrer'>
-                      {' '}{ (idx < counter + 2 && idx > counter) ? node.name : ''  }
+                      <Typing speed={10}>
+                      <Typing.Delay ms={300} />
+                        {' '}{ (idx < counter + 2 && idx > counter) ? node.name : ''  }
+                      </Typing>
                     </a>
                   ));
                 }}
@@ -115,7 +130,11 @@ class Code extends Component {
             └[▓▒░<ApolloProvider client={ client }>
               <Query query={ query } >
                 {({ loading, error, data }) => {
-                  if (loading) return <div className="loading"> Loading...</div>;
+                  if (loading) return <div className="loading">
+                      <Typing className="loading">
+                        Loading...
+                      </Typing>
+                    </div>;
                   if (error) return <div >{console.log(error)}Connection failed...</div>;
                   return data.user.repositories.nodes.map((node, idx) => (
                     <a key={node.name}
@@ -123,7 +142,10 @@ class Code extends Component {
                       title='github'
                       target='_blank'
                       rel='noopener noreferrer'>
-                      {' '}{ (idx < counter + 3 && idx > counter + 1) ? node.name : ''  }
+                      <Typing speed={10}>
+                      <Typing.Delay ms={1300} />
+                        {' '}{ (idx < counter + 3 && idx > counter + 1) ? node.name : ''  }
+                      </Typing>
                     </a>
                   ));
                 }}

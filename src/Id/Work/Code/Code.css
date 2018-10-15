@@ -38,6 +38,7 @@
 
   max-width: 23rem;
   min-width: 23rem;
+  max-height: 1rem;
 }
 
 .code > ul > li > a {
@@ -45,7 +46,9 @@
 
   pointer-events: auto;
   cursor: pointer;
+  height: 0.959rem;
 
+  display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis-word;

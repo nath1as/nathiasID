@@ -4,8 +4,9 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  margin-top: 30rem;
-  margin-left: 2.5rem;
+  margin-top: 28.8rem;
+  margin-left: -12.1rem;
+  position: fixed;
 }
 
 .contact > ul {
@@ -19,7 +20,7 @@
   pointer-events: auto;
 }
 
-.contact > ul > li > div {
+.contact > ul > li  div {
   text-decoration: none;
   color: #313131;
   outline:none;
@@ -35,7 +36,7 @@
 
 }
 
-.contact > ul > li > a > div {
+.contact > ul > li > a  div {
   text-decoration: none;
   color: #313131;
   outline:none;

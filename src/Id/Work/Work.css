@@ -4,7 +4,7 @@
   align-content: center;
   flex-direction: column;
   margin-top: 3.7rem;
-  margin-left: 11rem;
+  margin-left: 7.1rem;
   overflow: hidden;
 }
 
@@ -28,7 +28,7 @@
 .down-scroll {
   position: relative;
   display: inline-block;
-  bottom: 1.0rem;
+  bottom: 1.1rem;
   margin-left: 19.8rem;
 
   pointer-events: auto;
