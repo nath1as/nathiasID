@@ -14,7 +14,6 @@ class Whois extends Component {
               <span>
                 <h3>Hello!</h3>
                 <p> I am a philosopher and a coder interested in the intersection of philosophy, linguistics and computer science. My philosophical project is the development of a rationalist epistemology compatible with naturalism and nihilism.</p>
-                <p>Vitae omnis quia quod. Omnis incidunt facere eius totam atque. Et veritatis ea ut veritatis optio voluptatem enim. Ex necessitatibus aut aperiam et consequuntur et. Labore necessitatibus assumenda consequatur voluptatem vero enim dicta sintVitae omnis quia quod. Omnis incidunt facere eius totam atque. Et veritatis ea ut veritatis optio voluptatem enim. Ex necessitatibus aut aperiam et consequuntur et. Labore necessitatibus assumenda consequatur voluptatem vero enim dicta sint..</p>
               </span>
             </Typing>
           </p>
