@@ -1,12 +1,10 @@
-import React, { Component, dotenv } from 'react';
+import React, { Component } from 'react';
 import { Query, ApolloProvider } from "react-apollo";
 import 'cross-fetch/polyfill';
 import ApolloClient from 'apollo-boost';
 import gql from 'graphql-tag';
 import "./Code.css";
 import Typing from 'react-typing-animation';
-
-// require('dotenv').config();
 
 const client = new ApolloClient({
   uri: 'https://api.github.com/graphql',
