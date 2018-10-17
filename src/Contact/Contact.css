@@ -4,8 +4,8 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  margin-top: 28.8rem;
-  margin-left: -12.1rem;
+  margin-top: 30.2rem;
+  margin-left: -14.1rem;
   position: fixed;
 }
 
@@ -87,4 +87,33 @@ div div .contact ul li button {
 .contact > h3:nth-of-type(3) {
   top: 4.3rem;
   right: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .contact {
+    margin-top: 19.5rem;
+    margin-left: -11.1rem;
+    position: fixed;
+  }
+  .contact > h3 {
+    font-size: 0.4rem;
+    left: 0.7rem;
+  }
+.contact > h3:nth-of-type(1) {
+  top: 4.0rem;
+}
+
+.contact > h3:nth-of-type(2) {
+  top: 3.45rem;
+}
+
+.contact > h3:nth-of-type(3) {
+  top: 4.0rem;
+  right: -0.7rem;
+  margin-left: 6.4rem;
+}
+
+  .contact > ul > li  div {
+      font-size: 0.7rem;
+  }
 }

@@ -3,7 +3,6 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  margin-bottom: 0rem;
 }
 
 
@@ -46,3 +45,14 @@
   text-overflow: ellipsis-word;
 }
 
+@media only screen and (max-width: 500px) {
+
+  .philosophy > h2 {
+    margin-left: 3.2rem;
+    margin-bottom: 0.65rem;
+    font-size: 0.4rem;
+  }
+  .philosophy > ul > li > a {
+    font-size: 0.7rem;
+  }
+}

@@ -44,7 +44,7 @@ class Philosophy extends Component {
 
     return (
       <div className="philosophy">
-        <div className="up-scroll"
+        <div className="up-scroll upfix"
           onClick={this.upScroll}>
           ▲
         </div>

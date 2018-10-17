@@ -55,3 +55,17 @@
   -webkit-text-stroke: 0.1px #313131;
 }
 
+@media only screen and (max-width: 500px) {
+
+  .code > h2 {
+    margin-left: 1.7rem;
+    margin-bottom: 0.8rem;
+    font-size: 0.4rem;
+  }
+
+  .code > ul > li > a {
+    font-size: 0.7rem;
+  }
+
+}
+

@@ -7,7 +7,7 @@
   cursor: cell;
   pointer-events: auto;
 
-  width: 39rem;
+  /* width: 39rem; */
   height: 0.01rem;
   /* z-index: 999; */
   position: fixed;
@@ -16,11 +16,21 @@
 
 .logo-wrap {
   display: flex;
-  justify-content: center;
   flex-direction: row;
+  justify-content: center;
   align-content: center;
 }
 
 #logo:hover {
   color: #111;
 }
+
+@media only screen and (max-width: 500px) {
+
+  #logo {
+    margin-top: 8rem;
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+  }
+}
+

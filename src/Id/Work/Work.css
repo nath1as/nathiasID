@@ -3,9 +3,11 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  margin-top: 3.7rem;
-  margin-left: 7.1rem;
   overflow: hidden;
+  position: fixed;
+  margin-top: 31.2rem;
+  margin-left: -15rem;
+
 }
 
 
@@ -50,4 +52,16 @@
   pointer-events: auto;
 }
 
+@media only screen and (max-width: 500px) {
+
+  .work {
+    margin-top: 19.2rem;
+    margin-left: -15.5rem;
+    font-size: 1rem;
+  }
+  .upfix {
+    margin-bottom: 0.2rem;
+
+  }
+}
 

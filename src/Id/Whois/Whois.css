@@ -1,10 +1,11 @@
 .whois {
-  margin-top: 5.2rem;
-  /* margin-left: 20rem; */
+  margin-top: 29.2rem;
+  margin-left: -25rem;
   padding: 1rem;
   display: flex;
   justify-content: center;
   flex-direction: row;
+  position: fixed;
 }
 
 
@@ -20,7 +21,26 @@
 .bio {
   width: 24rem;
   padding: 0 2rem;
-  margin: 0rem;
+  margin: 2rem;
   pointer-events: auto;
   cursor: auto;
 }
+
+@media only screen and (max-width: 500px) {
+
+  .whois {
+    margin-top: 18.5rem;
+    margin-left: -21rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+  }
+
+  .bio {
+    font-size: 0.7rem;
+  }
+
+}
+
