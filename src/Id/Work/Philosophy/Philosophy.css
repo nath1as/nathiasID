@@ -45,7 +45,7 @@
   text-overflow: ellipsis-word;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 580px) {
 
   .philosophy > h2 {
     margin-left: 3.2rem;

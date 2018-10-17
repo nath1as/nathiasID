@@ -26,7 +26,7 @@
   cursor: auto;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 580px) {
 
   .whois {
     margin-top: 18.5rem;
