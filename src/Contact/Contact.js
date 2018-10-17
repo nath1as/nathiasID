@@ -86,8 +86,8 @@ class Contact extends Component {
           <h3>SOC --</h3>
           <ul>
             <li>┌[▓▒░<a
-              href="https://independent.academia.edu/nathias"
-              title='academia.edu'
+                href="https://twitter.com/nath1as"
+              title='twitter'
               target='_blank'
               rel='noopener noreferrer'>
               <div>
@@ -97,7 +97,7 @@ class Contact extends Component {
                 </Typing>
               </div></a></li>
             <li>├[▓▒░<a
-              href="https://www.instagram.com/nihilnegativum"
+              href="https://www.instagram.com/nath1as"
               title='instagram'
               target='_blank'
               rel='noopener noreferrer'>
@@ -109,7 +109,7 @@ class Contact extends Component {
               </div></a></li>
             <li>├[▓▒░<a
               href="https://www.linkedin.com/in/nathias"
-              title='academia.edu'
+              title='linkedin'
               target='_blank'
               rel='noopener noreferrer'>
               <div>
@@ -120,7 +120,7 @@ class Contact extends Component {
               </div></a></li>
             <li>└[▓▒░<a
               href="https://www.facebook.com/nath1as"
-              title='academia.edu'
+              title='evilbook'
               target='_blank'
               rel='noopener noreferrer'>
               <div>
