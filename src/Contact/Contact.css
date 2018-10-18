@@ -89,7 +89,7 @@ div div .contact ul li button {
   right: 1rem;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 650px), only screen and (max-height: 800px) {
   .contact {
     margin-top: 19.5rem;
     margin-left: -11.1rem;
