@@ -10,6 +10,10 @@ let ico = require("./favicon.ico");
 ReactDOM.render(
   <div>
     <Helmet>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+      <title>nathias ID</title>
+
       <link rel="icon" href={ ico } />
     </Helmet>
     <Main />,
