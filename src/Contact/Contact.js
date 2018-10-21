@@ -72,14 +72,14 @@ class Contact extends Component {
                 </Typing>
               </div></a></li>
             <li>└[▓▒░<a
-              href="https://www.deviantart.com/nihiln3gativum"
-              title='deviantart'
+                href="https://www.steampowered.com/nathias"
+              title='steam'
               target='_blank'
               rel='noopener noreferrer'>
               <div>
                 <Typing speed={10}>
                 <Typing.Delay ms={860} />
-                  deviantart
+                  steam
                 </Typing>
               </div></a></li>
           </ul>
