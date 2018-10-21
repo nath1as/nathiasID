@@ -60,7 +60,7 @@ class Contact extends Component {
                   github
                 </Typing>
               </div></a></li>
-            <li>├[▓▒░<a
+            <li>└[▓▒░<a
               href="https://independent.academia.edu/nathias"
               title='academia.edu'
               target='_blank'
@@ -69,17 +69,6 @@ class Contact extends Component {
                 <Typing speed={10}>
                 <Typing.Delay ms={200} />
                   academia.edu
-                </Typing>
-              </div></a></li>
-            <li>└[▓▒░<a
-                href="https://www.steampowered.com/nathias"
-              title='steam'
-              target='_blank'
-              rel='noopener noreferrer'>
-              <div>
-                <Typing speed={10}>
-                <Typing.Delay ms={860} />
-                  steam
                 </Typing>
               </div></a></li>
           </ul>
