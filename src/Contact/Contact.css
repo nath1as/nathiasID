@@ -117,3 +117,33 @@ div div .contact ul li button {
       font-size: 0.7rem;
   }
 }
+
+@media only screen and (max-width: 400px), only screen and (max-height: 600px) {
+  .contact {
+    margin-top: 12.5rem;
+    margin-left: -13.1rem;
+    position: fixed;
+  }
+  .contact > h3 {
+    font-size: 0.4rem;
+    left: 0.7rem;
+  }
+.contact > h3:nth-of-type(1) {
+  top: 4.0rem;
+}
+
+.contact > h3:nth-of-type(2) {
+  top: 3.45rem;
+}
+
+.contact > h3:nth-of-type(3) {
+  top: 4.0rem;
+  right: -0.7rem;
+  margin-left: 6.4rem;
+}
+
+  .contact > ul > li  div {
+      font-size: 0.7rem;
+  }
+}
+
