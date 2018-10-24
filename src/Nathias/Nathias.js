@@ -2,31 +2,31 @@ import React, { Component } from "react";
 import "./Nathias.css";
 
 const nths = `
- █▄
- ███▄
- ███▀█▄
- ███  ▀█▄              █
+ █▄                                               
+ ███▄                                             
+ ███▀█▄                                           
+ ███  ▀█▄              █                          
  ███   ███             █     ▄              ▄▄▄   
  ███   ███     ▄█▄     █     █       ▄█▄  ▄█▀ ▀▀  
  ███   ███   ▄█▀ ▀█▄  ▀█▀ ▄▄▄█ ▀   ▄█▀ ▀█▄ ▀█▄▄   
  ███   ███ ▄██▄   ▄██▄ █▄ █  █ █ ▄██▄   ▄██▄  ▀█▄ 
  ███   ███                   █          ▄▄▄▄▄▄▄█▀ 
- ███   ███
- ███   █▀
- ███
- ███
- █▀
+ ███   ███                                        
+ ███   █▀                                         
+ ███                                              
+ ███                                              
+ █▀                                               
 `;
 
 class Logo extends Component {
   render() {
     return (
       <div className="logo-wrap">
-        <code className="logo-wrap">
-          <pre id="logo" className="glitch">
+        <pre id="logo" className="glitch">
+          <code className="logo-wrap">
             { nths }
-          </pre>
-        </code>
+          </code>
+        </pre>
       </div>
     );
   }
