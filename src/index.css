@@ -17,10 +17,6 @@ h1, h2, h3 {
   font-size: 0.6rem;
 }
 
-pre {
-  tab-size: 1;
-}
-pre code { white-space: pre; }
 /* animation */
 
 @keyframes blinker {
