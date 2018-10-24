@@ -69,11 +69,11 @@ div > pre > code {
     line-height: 0.45rem;
   }
 
-
-}
-
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   #logo {
-    line-height: 1.7rem;
+    line-height: 0.6rem;
   }
 }
+
+}
+
