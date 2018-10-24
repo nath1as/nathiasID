@@ -9,14 +9,14 @@ class Whois extends Component {
       <div>
         <article className="whois">
           <img alt="nathias" src={nathias} />
-          <p className="bio">
+          <div className="bio">
             <Typing speed={20}>
               <span>
                 <h3>Hello!</h3>
                 <p> I am a philosopher and a coder interested in the intersection of philosophy, linguistics and computer science. My philosophical project is the development of a rationalist epistemology compatible with naturalism and nihilism.</p>
               </span>
             </Typing>
-          </p>
+          </div>
         </article>
       </div>
     );
