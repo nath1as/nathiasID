@@ -6,12 +6,13 @@
   color: #111;
   cursor: cell;
   pointer-events: auto;
+  padding: 1%;
 
   /* width: 39rem; */
   height: 0.01rem;
   /* z-index: 999; */
   position: fixed;
-  margin-top: 9.5rem;
+  margin-top: 8.5rem;
 
 }
 .logo-wrap {
@@ -46,7 +47,7 @@ div > pre > code {
 @media only screen and (max-width: 650px), only screen and (max-height: 800px) {
 
   #logo {
-    margin-top: 8rem;
+    margin-top: 7.8rem;
     font-size: 0.7rem;
     line-height: 0.9rem;
   }
@@ -55,7 +56,7 @@ div > pre > code {
 @media only screen and (max-width: 400px), only screen and (max-height: 600px) {
 
   #logo {
-    margin-top: 2rem;
+    margin-top: 1.8rem;
     font-size: 0.6rem;
     line-height: 0.7rem;
   }
@@ -64,16 +65,9 @@ div > pre > code {
 @media only screen and (max-width: 350px), only screen and (max-height: 470px) {
 
   #logo {
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     font-size: 0.4rem;
     line-height: 0.45rem;
   }
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  #logo {
-    line-height: 0.6rem;
-  }
-}
-
 }
 
