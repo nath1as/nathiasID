@@ -70,9 +70,9 @@ class Logo extends Component {
   render() {
     return (
       <div className="logo-wrap">
-        <pre id="logo" className="glitch">
+        <div id="logo" className="glitch">
           { nths }
-        </pre>
+        </div>
       </div>
     );
   }
