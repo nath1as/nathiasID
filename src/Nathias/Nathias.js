@@ -11,11 +11,11 @@ const nths = `
  ███   ███   ▄█▀ ▀█▄  ▀█▀ ▄▄▄█ ▀   ▄█▀ ▀█▄ ▀█▄▄   
  ███   ███ ▄██▄   ▄██▄ █▄ █  █ █ ▄██▄   ▄██▄  ▀█▄ 
  ███   ███                   █          ▄▄▄▄▄▄▄█▀ 
- ███   ███                                        
- ███   █▀                                         
- ███                                              
- ███                                              
- █▀                                               
+ ███   ███
+ ███   █▀
+ ███
+ ███
+ █▀
 `;
 
 class Logo extends Component {
@@ -23,9 +23,7 @@ class Logo extends Component {
     return (
       <div className="logo-wrap">
         <pre id="logo" className="glitch">
-          <code className="logo-wrap">
-            { nths }
-          </code>
+          { nths }
         </pre>
       </div>
     );

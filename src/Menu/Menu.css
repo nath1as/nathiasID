@@ -64,7 +64,6 @@ nav > ul > li:hover {
     nav > ul > li {
       font-size: 1.4rem;
     }
-
 }
 
 @media only screen and (max-width: 400px), only screen and (max-height: 600px) {
@@ -76,5 +75,15 @@ nav > ul > li:hover {
     nav > ul > li {
       font-size: 1.3rem;
     }
+}
 
+@media only screen and (max-width: 350px), only screen and (max-height: 470px) {
+
+    nav > ul {
+      margin-top: 5.5rem;
+    }
+
+    nav > ul > li {
+      font-size: 0.85rem;
+    }
 }
