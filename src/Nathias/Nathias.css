@@ -1,5 +1,7 @@
+@import url('https://adobe-fonts.github.io/source-code-pro/source-code-pro.css');
+
 #logo {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Hack", "Courier New", "Source Code Pro";
   line-height: 1.7rem;
   font-size: 1.4rem;
   color: #141414;
