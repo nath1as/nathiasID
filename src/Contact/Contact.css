@@ -1,3 +1,5 @@
+@import url('https://adobe-fonts.github.io/source-code-pro/source-code-pro.css');
+
 /* contact */
 .contact {
   display: flex;
@@ -13,9 +15,11 @@
   list-style-type: none;
   margin-left: 6.6rem;
   margin-bottom: -1rem;
-
 }
 
+.contact > ul {
+  font-family: "Source Code Pro";
+}
 .contact > ul > {
   pointer-events: auto;
 }
@@ -70,9 +74,10 @@ div div .contact ul li button {
   animation: glitch 4s steps(100) 2, blinker 1.5s linear infinite;
 }
 
+
 .contact > h3 {
   position: relative;
-  right: 1.6rem;
+  right: 1.1rem;
   margin-left: 6rem;
 }
 
@@ -81,12 +86,12 @@ div div .contact ul li button {
 }
 
 .contact > h3:nth-of-type(2) {
-  top: 3.75rem;
+  top: 3.15rem;
 }
 
 .contact > h3:nth-of-type(3) {
   top: 4.3rem;
-  right: 1rem;
+  right: 0.3rem;
 }
 
 @media only screen and (max-width: 650px), only screen and (max-height: 800px) {
