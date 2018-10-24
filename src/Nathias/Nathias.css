@@ -19,14 +19,22 @@
   flex-direction: row;
   justify-content: center;
   align-content: center;
+  white-space: pre;
 }
-
+#logo {
+  white-space: pre;
+}
 #logo:hover {
   color: #111;
+  white-space: pre;
 }
 
+
+div > pre {
+    white-space: no-wrap;
+  }
 div > pre > code {
-    white-space: pre-wrap;
+    white-space: pre;
   }
 
 @media only screen and (max-width: 650px), only screen and (max-height: 800px) {
