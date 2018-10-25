@@ -66,7 +66,7 @@ class Code extends Component {
 
     return(
       <div className="code">
-        <div className="up-scroll"
+        <div className="up-scroll code-up"
           onClick={this.upScroll}>
           ▲
         </div>
@@ -151,7 +151,7 @@ class Code extends Component {
             </ApolloProvider>
           </li>
         </ul>
-        <div className="down-scroll" onClick={this.downScroll}>
+        <div className="down-scroll code-down" onClick={this.downScroll}>
           ▼
         </div>
       </div>

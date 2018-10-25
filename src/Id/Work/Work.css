@@ -1,3 +1,4 @@
+
 .work {
   display: flex;
   justify-content: center;
@@ -7,7 +8,6 @@
   position: fixed;
   margin-top: 31.2rem;
   margin-left: -15rem;
-
 }
 
 
@@ -15,7 +15,7 @@
 .up-scroll {
   position: relative;
   display: inline-block;
-  top: 2.5rem;
+  top: 2.6rem;
   margin-left: 19.8rem;
 
   font-stretch: extra-expanded;
@@ -55,26 +55,61 @@
 @media only screen and (max-width: 650px), only screen and (max-height: 800px) {
 
   .work {
-    margin-top: 19.2rem;
+    margin-top: 22.2rem;
     margin-left: -15.5rem;
-    font-size: 0.6rem;
   }
-  .upfix {
-    margin-bottom: 0.2rem;
 
-  }
+.up-scroll {
+  top: 2.9rem;
+  margin-left: 19.0rem;
+
+  transform:scale(2.2,1.0);
+  -webkit-transform:scale(2.2,1.0);
+}
+
+.down-scroll {
+  bottom: 1.2rem;
+  margin-left: 19.0rem;
+
+  transform:scale(2.2,1.0);
+  -webkit-transform:scale(2.2,1.0);
+}
+
+.code-down {
+  bottom: 1.3rem;
+  margin-left: 19.0rem;
+}
+.code-up {
+  top: 2.6rem;
+  margin-left: 19.0rem;
+}
 }
 
 @media only screen and (max-width: 400px), only screen and (max-height: 600px) {
 
   .work {
-    margin-top: 10.5rem;
+    margin-top: 11.5rem;
     margin-left: -15.5rem;
-    font-size: 1rem;
   }
   .upfix {
     margin-bottom: 0.2rem;
+  }
 
+  .up-scroll {
+    top: 3.2rem;
+    margin-left: 19.0rem;
+
+  }
+
+  .down-scroll {
+    bottom: 1.25rem;
+    margin-left: 19.0rem;
+
+  }
+
+  .code-up {
+    top: 2.7rem;
+    margin-left: 19.0rem;
   }
 }
 
@@ -83,8 +118,5 @@
   .work {
     margin-top: 6.5rem;
     margin-left: -15.5rem;
-  }
-  .upfix {
-    margin-bottom: 0.2rem;
   }
 }
