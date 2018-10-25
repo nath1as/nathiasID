@@ -35,14 +35,14 @@
   animation: glitch 4s steps(100) 1;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 650px), only screen and (max-height: 800px) {
 
 .submenu > ul {
   top: 2rem;
   margin-left: -8.7rem;
 }
 .submenu > ul > li {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
     }
 }
 
