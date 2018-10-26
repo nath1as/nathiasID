@@ -38,6 +38,8 @@
   max-width: 23rem;
   min-width: 23rem;
   max-height: 1rem;
+
+  overflow: hidden !important;
 }
 
 .code > ul > li > a {
